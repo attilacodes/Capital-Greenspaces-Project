@@ -1,0 +1,363 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+
+{% block header %}
+<h1>This is the home page</h1>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+{% endblock %}
+
+{% block content %}
+
+<!-- Creation of About-Section Banner Image and Title -->
+    <div class="about-section">
+      <div class="Titletxt">
+        <br><br><br><br><br><br><br><br><br><br>
+        <h1>
+          <center>Access to Recreational Quality
+          </center>
+        </h1>
+      </div>
+    </div>
+    <br><br><br><br>
+
+<h1>
+      <center>Project Introduction</center>
+    </h1>
+    <br>
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <h2>Why Recreational Quality?</h2>
+        <img src="static/question_mark.jpg" alt="Why recreational quality?" style="width:100%; height:300px;
+								       object-fit:cover;">
+        <div class="w3-container w3-white w3-round">
+          <h4>Both access to and the quality of greenspaces are key factors influencing environmental deprivation (the state where a person or a community has a lack of access to the above-mentioned resources). As a result of the UK government's impotent political agenda, the issue of <i>environmental injustice</i> remains, where certain (usually less affluent areas) are more environmentally deprived (than more affluent areas). With the Scottish Government's commitment to the <i>20-minutes neighbourhood</i>, which adovcates for the <i>proximity, quality and diversity</i> of environmental activites, this re-shfits focus of efforts towards mediating such environmental injustices. </h4>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <h2>What is Recreational Quality?</h2>
+        <img src="static/direction.jpg" alt="What is recreational quality?" style="width:100%; height:300px;
+								       object-fit:cover;">
+        <div class="w3-container w3-white w3-round">
+          <h4>Whilst we acknowledge that both recreation and quality can differ in perception, we narrow down the definitions in order to study this. We study <i>recreational quality</i> through the transport mode of <i>walking</i> where people should have access to the right resources in their nearest public greenspace to meet their daily (recreational) needs without compromise. As such, both urban design features and the overall atmosphere of the greenspace are key to achieving this.</h4>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <h2>Our Project</h2>
+        <img src="static/lightbulb.jpg" alt="Our project idea" style="width:100%; height:300px;
+								       object-fit:cover;">
+        <div class="w3-container w3-white w3-round">
+          <h4>We develop a novel index called the <i>ARQI</i> to assess spatial access to recreational quality. The index is intended to benefit both the general public and park planners through the delivery of information to aid decisions on visits to particular greenspaces as well as greenspace planning across Edinburgh, repsectively. The benefits of these will be highlighted in this website. Furthermore, given the large study-area scale of our project, we are able to form preliminary evidence of the relation of the ARQI and the Scottish Index of Multiple Deprivation (latest version published in 2020), which will primarily be of use in underpinning planning activities to target environmentally deprived areas.</h4>
+
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br><br>
+
+      <!-- Text and image carousel using Slide JS -->
+      <div class="wrapper">
+      <center><h2>How is the ARQI Created?</h2></center>
+            <div class="carousel">
+            <div>
+                  <h2><u>Stage 1</u></h2>
+                  <h4>In order to calculate recreational quality, we selected four sub-criteria comprising of nine factors to define this, additionally using literature and the available open data to underpin our decisions. We then used designed a 5-point scoring system to enable consistent scoring for all factors. The higher the score, the greater its contribution to recreational quality.</h4>
+
+              </div>
+              <div><img src="static/stage_1_cropped.png" alt="Criteria and scoring system" style="height:410px; object-fit: contain;"></div>
+              <div>
+                  <h2><u>Stage 2</u></h2>
+                  <h4>To account for the fact that different factors pose varying levels of importance to recreational quality, we sample the opinions of park users across four greenspaces located in varying levels of social deprivation. The opinions are then processed to inform the weights applied to each factor using a technique called <i>Analytic Hierarchy Process</i>. Adopting a <i>weighted linear combination</i> approach, the weighted scores for each factors are summed to produce a recreational quality score for each greenspace.</h4>
+                <button class="btn" style="width:65%; height: 60px;">
+                  <a href="https://survey123.arcgis.com/share/334e4c4a26ec49a4b6d49c80ffc9d27c" alt="Recreational Quality Survey" target="_blank">Access Survey</a></button>
+              </div>
+              <div><img src="static/stage_2_small.jpg" alt="In-person surveyed greenspaces" style="height:410px ;object-fit: contain;"></div>
+              <div>
+                  <h2><u>Stage 3</u>
+                  </h2>
+                      <h4>In line with the Scottish Government's work on 20-minute neighbourhoods, an 800m service area is taken from the access points of each greenspace to visualise how greenspace accessibility varies between local areas (datazones). Taking the sum of greenspace quality scores per service area overlap, an index showing greenspace access and the quality of access is known.</h4>
+              </div>
+              <div><img src="static/stage_3_small.jpg" alt="800m Service areas" style="height:410px; object-fit: contain;"></div>
+            </div>
+      </div>
+   <br>
+
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+
+{% endblock %}
+
+
+{% block static %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!--Using JQuery to add animation to scroll to top -->
+      <script>
+        $(document).ready(function() {
+          $("#btnScrollToTop").click(function() {
+            $("html, body").animate({
+              scrollTop: 0
+            }, "slow");
+          });
+        });
+
+      </script>
+
+      <script>
+      $(document).ready(() => {
+      $('#slides .slide') ({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 4000,
+      dots: true,
+      });
+      });
+      </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.carousel').slick({
+          slidesToShow: 3,
+          dots: true,
+          centerMode: true,
+        });
+      });
+
+    </script>
+   <p>
+      <h4>
+        <center>For more details, please access our report:</center>
+      </h4>
+    </p>
+    <div>
+      <button class="btn" style="width:23%; height: 45px;">
+        <a href="assets/ARQI_Report_No_Exam_Number.pdf" alt="ARQI Report" target="_blank">Access Full ARQI Report (PDF)</a>
+      </button>
+    </div>
+    <br>
+    <h2>
+      <center>Before you view the webmap, can you think of anything that influences your visit to greenspaces?</center>
+    </h2>
+    <h3>
+      <center>Input your ideas in the form and also see what others have said</center>
+    </h3>
+
+    <!-- HTML form for Word cloud -->
+    <center>
+      <form name="form" method="POST" , action="">
+        Word 1: <input type="text" name="factor1"><br><br>
+        Word 2: <input type="text" name="factor2"><br><br>
+        Word 3: <input type="text" name="factor3"><br><br>
+        Word 4: <input type="text" name="factor4"><br><br>
+        Word 5: <input type="text" name="factor5"><br><br>
+        <input class="btn" value="Add to Word Cloud" onClick=function(this.form)>
+      </form>
+    </center>
+    <div id="container"></div>
+
+     <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+    <script language="Javascript">
+      anychart.onDocumentReady(function() {
+        var data = [{
+            "x": "Benches",
+            "value": 6
+          },
+          {
+            "x": "Not commercialised",
+            "value": 1
+          },
+          {
+            "x": "Dog friendly",
+            "value": 3
+          },
+          {
+            "x": "Grass",
+            "value": 10
+          },
+          {
+            "x": "Greenery",
+            "value": 15
+          },
+          {
+            "x": "Cleanliness",
+            "value": 13
+          },
+          {
+            "x": "Quiet",
+            "value": 10
+          },
+          {
+            "x": "Atmosphere",
+            "value": 8
+          },
+          {
+            "x": "Fountains",
+              "value": 1
+	  },
+          {
+            "x": "Sports facilities",
+            "value": 3
+          },
+          {
+            "x": "Bus stop",
+            "value": 5
+          },
+          {
+            "x": "Playing area",
+            "value": 6
+          },
+          {
+            "x": "Public events",
+            "value": 7
+          },
+          {
+            "x": "Eateries",
+            "value": 10
+          },
+          {
+            "x": "Safety",
+            "value": 6
+          },
+          {
+            "x": "Peaceful",
+            "value": 5
+          },
+          {
+            "x": "Fresh air",
+            "value": 8
+          },
+          {
+            "x": "Transport",
+            "value": 4
+          },},
+          {
+            "x": "Sports facilities",
+            "value": 3
+          },
+          {
+            "x": "Bus stop",
+            "value": 5
+          },
+          {
+            "x": "Playing area",
+            "value": 6
+          },
+          {
+            "x": "Public events",
+            "value": 7
+          },
+          {
+            "x": "Eateries",
+            "value": 10
+          },
+          {
+            "x": "Safety",
+            "value": 6
+          },
+          {
+            "x": "Peaceful",
+            "value": 5
+          },
+          {
+            "x": "Fresh air",
+            "value": 8
+          },
+          {
+            "x": "Transport",
+            "value": 4
+          },
+	  {
+            "x": "Not crowded",
+            "value": 2
+          },
+          {
+            "x": "Markets",
+            "value": 3
+          },
+          {
+            "x": "Footpaths",
+            "value": 6
+          },
+          {
+            "x": "Public gym areas",
+            "value": 7
+          },
+          {
+            "x": "Shelter",
+            "value": 3
+          },
+          {
+            "x": "Friendly people",
+            "value": 4
+          },
+          {
+            "x": "Lakes",
+            "value": 2
+          },
+          {
+            "x": "River",
+            "value": 2
+          },
+          {
+            "x": "Pond",
+            "value": 2
+          },
+	  {
+            "x": "Free Access",
+            "value": 1
+          },
+          {
+            "x": "Public art",
+            "value": 3
+          }
+        ];
+        var chart = anychart.tagCloud(data);
+        chart.angles([0][90]);
+        var title = chart.title();
+        title.text("Important considerations to park visits in Edinburgh");
+        title.enabled(true);
+        title.fontColor('Black');
+        title.fontSize('28');
+        title.fontFamily('Calibri');
+        title.fontWeight('700');
+        var customColorScale = anychart.scales.ordinalColor();
+        customColorScale.ranges([{
+            less: 5
+          },
+          {
+            from: 6,
+            to: 10
+          },
+          {
+            greater: 10
+          }
+				]);
+	customColorScale.colors(["#1fadad", "#93bfec", "#0f5757"]);
+        chart.colorScale(customColorScale);
+        chart.colorRange().enabled(true);
+        chart.container("container");
+        chart.draw();
+      });
+
+    </script>
+      </div>
+      </div>
+
+
+
+      <!-- Footer of webpage -->
+      </footer>
+      <footer class="footer">
+        <h2>References</h2>
+      </footer>
+
+{% endblock %}

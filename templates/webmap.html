@@ -1,0 +1,100 @@
+{% extends "base.html" %} {% block title %}Webmap{% endblock %}
+{% block content %}
+<!doctype html>
+
+<html lang="en-GB">
+
+  <head>
+    <meta charset="UTF-8">
+
+    
+    
+    <title>Webmap</title>
+    <!-- Import stylesheets -->
+    <link rel="stylesheet" href="static/webpage_style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="static/lightbox.css" rel="stylesheet" />
+    
+   
+    <style>
+      .about-section {
+  padding:18px 80px 700px 60px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url("static/database.jpg");
+  background-position: bottom center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Center Image */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+      </style>
+    
+    
+  </head>
+
+  <body>
+    
+    <!-- Creation of interactive header-->
+    <div class="header">
+      <nav>
+        <a href="/">Home</a>
+        <a class="active" href="/webmap">Interactive Webmap</a>
+        <a href="/data">Query and Download</a>
+        <a href="/aboutus">About Us</a>
+	<a class="active" href="static/userguide.png" data-lightbox="popup">User Guide</a>
+      </nav>
+    </div>
+
+    <!-- Creation of About-Section Banner Image and Title -->
+     <section id="webmap" align="center" >
+      <div class="about-section">
+      <div class="Titletxt">
+        <br><br><br><br><br><br><br><br><br><br>
+        <h1><center>Interactive Webmap</center></h1>
+      </div>
+      </div>
+    <!-- Captions over images -->
+      <figure class="textover">
+      <figcaption>Photo by <a href="https://unsplash.com/photos/oH8G8cn52o8" alt="Photographer of image" target="_blank">Dominik Rešek</a> on Unsplash</figcaption>
+      </figure>
+
+      <hr>
+      
+      
+	
+<!--WEBMAP-->
+		
+<div class="container">
+  <div class="row">
+<iframe src="https://www.geos.ed.ac.uk/~s2236682/map.html" height="900" width="100%"
+        frameborder="0" scrolling="no" id="iframe">
+</iframe>
+  </div>
+</div>
+
+ <!--GitHub ribbon-->
+
+<a href="https://github.com/attilacodes" target="_blank"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" style="position: fixed; top: 0; right: 0; border: 0;" alt="Find me on GitHub" ></a>
+
+<!--- Footer --->
+      <div>
+	    <hr>
+	  </div>
+	  <div id="footer_bottom_content" style="background-color:#19422A">
+	    <div class="text-center" align="center">
+          <span id="footer-line" style="line-height:100px"><font color="#FFFFFF">Design © 2021 Group 6 ARQI,<a href="https://www.ed.ac.uk/geosciences" target="_blank"> School of GeoSciences, The University of Edinburgh<br><img align="center" src="static/GeoSciences_white.png" alt="University logo" width="auto" height="85" object-fit="scale-down" /></a></font></span>
+		</div>
+      </div>
+
+<script src="static/lightbox-plus-jquery.js"></script>
+	  {% endblock %}
+	  
+</body>
+</html>

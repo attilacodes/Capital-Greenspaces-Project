@@ -1,0 +1,17 @@
+from flask import Flask, Blueprint, render_template
+import cx_Oracle
+import cgi
+import cgitb
+cgitb.enable()
+
+database = Blueprint('database', __name__)
+
+@database.route('/database')
+def database():
+    with open("../../../nada",'r') as pwf:
+          pw = pwf.read().strip()
+    conn = cx_Oracle.connect(dsn="geoslearn", user="s2236682", password=pw)
+    c = conn.cursor()
+    c.execute("SELECT * FROM GREENSPACE")
+    conn.close()
+    return database

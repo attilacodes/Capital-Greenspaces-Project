@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>Query Results</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type = "text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script type = "text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type = "text/javascript"  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Datatable -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
+
+     <! -- Styling for table -->
+    <style>
+      	table,
+	table td {
+	    margin:auto;
+	    padding: 10px;
+	}
+    </style>
+    
+  </head>
+  <body>
+  
+{% extends "query_download.html" %}
+{% block content %}
+
+<!-- Design of HTML form (to pass data to server side) -->
+<center>
+<form id = "greenspaceServices" method="POST" action="/submitted">
+<label for="greenspace" style="font-size: 20px">Choose a greenspace:</label>
+<select name="greenspace" id="greenspace">
+  {% for greenspace in greenspaces %}
+  <option value={{greenspace}}>{{greenspace}}</option>
+  {% endfor %}
+</select>
+<p>
+<label for="service" style="font-size: 20px">Choose a service:</label>
+<select name="service" id="service" style="font-size: 18px">
+  <option value="provisions">Provisions</option>
+  <option value="quality">Quality</option>
+  <option value="serviceAreas">Service Areas</option>
+</select>
+</p>
+<button class="btn">Submit</button>
+</form>
+
+<!-- Design another form and button to redirect back to the mainpage (to enable infinite queries) -->
+<form id="resubmit" action="{{url_for('index')}}" method='POST'>
+    <button class="btn" style= "width:130px">Resubmit<a href="{{url_for('index')}}"></button></a>
+</form>
+</center>
+
+<!-- Table display design -->
+
+<table>
+  <tbody>
+    <tr>
+    <td>{{ query }}</td>
+    </tr>
+  </tbody>
+  </table>
+
+  {% endblock %}
+
+
+
+</body>
+</html>

@@ -1,0 +1,376 @@
+{% extends "base.html" %} {% block title %}About Us{% endblock %}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+
+  <!-----head----->
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>About Us</title>
+    <!-- css -->
+    <link rel="stylesheet" href="static/aboutusstyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <!-----Body----->
+  
+  <body>
+      <!-- start menu -->
+      <div class="header">
+        <nav>
+          <a href="/">Home</a>
+          <a href="/webmap">Interactive Webmap</a>
+          <a href="/data">Query and Download</a>
+          <a class="active" href="#About Us">About Us</a>
+        </nav>
+      </div>
+      <!-- end menu -->
+		
+      <!-- start view img -->
+      <div class="about-section">
+	<div class="Titletxt">
+	  <br><br><br><br><br><br><br><br><br><br>
+	  <h1>
+	    <center>About Us
+	    </center>
+	  </h1>
+	</div>
+      </div>
+      <figure class="textover">
+	<figcaption>Photo by <a href="https://unsplash.com/photos/T9luNxtxVjY" alt="Photographer of image" target="_blank">Lee Chalmers</a> on Unsplash</figcaption>
+      </figure>
+      <br>
+	
+		
+<!--  Start what we do Section
+      ==================================== -->
+      <section id="what_we_do">
+	<div class="container">
+	  <div class="row">
+
+	    <!-- section title -->
+	    <div data-wow-duration="1500ms" >
+	      <div class="text-center" align="center">
+		<hr>
+		<font size="+1" color="#448D38"><p>WHAT WE DO</p></font>
+		<font size="+3" color="#19422A"><b>What You Can Get From Us</b></font>
+		<hr>
+              </div>
+	    </div>
+	    <!-- /section title -->
+
+	    <!-- About item -->
+	    <table align="center"><tr align="center"><td width="350" align="center">
+		  <div data-wow-duration="500ms" >
+		    <div class="block">
+		      <div class="icon-box" align="center">
+			<img src="static/map.png" alt="" width="150">
+		      </div>
+		      <!-- Express About Yourself -->
+		      <div>
+			<p><font size="+2">ARQI Map</font></p>
+			<p class="textcontent" align="left">The map is created using the folium library,<br> and the specific information of greenspaces and data zones is dynamically displayed.</p>
+		      </div>
+		    </div>
+		  </div> 
+		  <!-- End About item -->
+
+		</td><td width="350" align="center">
+
+		  <!-- About item -->
+		  <div data-wow-duration="500ms" data-wow-delay="250ms">
+		    <div id="block1">
+		      <div id="icon-box1" align="center">
+			<img src="static/query.png" alt="" width="150">
+		      </div>
+		      <!-- Express About Yourself -->
+		      <div id="content text-center1">
+			<p><font size="+2">Query Function</font></p>
+			<p class="textcontent" align="left">We connect the database to the HTML page. At the same time, users can make inquiries based on different needs.</p>
+		      </div>
+		    </div>
+		  </div>
+		  <!-- End About item -->
+
+		</td><td width="350" align="center">
+
+		  <!-- About item -->
+
+		  <div data-wow-duration="500ms" data-wow-delay="500ms">
+		    <div id="block2" align="center">
+		      <div id="icon-box2">
+			<img src="static/download.png" alt="" width="150">
+		      </div>
+		      <!-- Express About Yourself -->
+		      <div id="content text-center2">
+			<p><font size="+2">Download</font></p>
+			<p class="textcontent" align="left">On our page, we provide links so that users can download data and information about ARQI, including our research reports and databases.</p>
+		      </div>
+		    </div>
+		  </div>
+		  <!-- End About item -->
+	    </td></tr></table>
+
+	  </div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+      </section>   <!-- End section -->
+
+      <!-- Start Our Team Section
+      =========================================== -->
+      <section id="our-team"  align="center" style="background: #E9F5E9">
+	<div class="container">
+	  <div class="row" >
+
+	    <!-- section title -->
+	    <div class="text-center">
+	      <hr>
+	      <font size="+1" color="#19422A"><p>Our Creative Team</p></font>
+	      <font size="+3" color="#448D38"><b>Meet Our Team</b></font>
+	      <hr>
+	    </div>
+	    <!-- /section title -->
+
+	    <!-- team member -->
+	    <table align="center"><tr align="center"><td align="center">
+		  <div id="team-member1">
+		    <div id="member-photo1">
+		      <!-- member photo -->
+		      <img src="static/victoria.png" alt="" width="215" height="215" />
+				  <!-- /member photo -->
+			    </div>
+					
+				<!-- member name & designation -->
+				<div id="member-meta1">
+				  <h4>Victoria Song</h4>
+			      <span class="textteam">Team Leader</span>
+				  <p class="textteam">Front-end and back-end developments:<br> website design and the creation of <br>a web application to query the database</p>
+				  <p class="textteam"><a href="https://www.linkedin.com/in/victoria-song-130761172/" target="_blank"><font color="#448D38"><b>Get in touch →</b></font></a></p>
+                </div>
+				<!-- /member name & designation -->
+				<!-- /about member -->
+				 
+                </div>
+			    <!-- end team member -->
+				</td></tr></table>
+			
+				<table align="center"><tr><td width="250">
+			    <!-- team member -->
+                <div id="team-member2" align="center">
+			      <div id="member-photo2">
+					<!-- member photo -->
+					<img src="static/attila.png" alt="" width="215" height="215" />
+					<!-- /member photo -->
+				  </div>
+					
+				  <!-- member name & designation -->
+				  <div id="member-meta2">
+					<h4>Attila Lukacs</h4>
+					<span class="textteam">Team Member</span>
+					<p class="textteam">Back-end developer, created the web app, the interactive webmap and the SQL database       </p>
+					<p class="textteam"><a href="https://www.linkedin.com/in/lukacs-attila/" target="_blank"><font color="#448D38"><b>Get in touch →</b></font></a></p>
+                  </div>
+				</div>
+			    <!-- end team member -->
+			
+				</td>
+                <td width="250">
+					
+			    <!-- team member -->
+                <div id="team-member3" align="center">
+				  <div id="member-photo3">
+					<!-- member photo -->
+					<img src="static/dorina.png" alt="" width="215" height="215" />
+					<!-- /member photo -->
+				  </div>
+					
+				  <!-- member name & designation -->
+				  <div id="member-meta3">
+					<h4>Dorina Mosneanu</h4>
+				      <span class="textteam">Team Member</span>
+					  <p class="textteam">Back-end developer: <br>Contributions to the creation of<br>the interactive webmap</p>
+					  <p class="textteam"><a href="https://www.linkedin.com/in/dorina-mo%C5%9Fneanu-340b9a6b/" target="_blank"><font color="#448D38"><b>Get in touch →</b></font></a></p>
+                  </div>
+				  <!-- /member name & designation -->
+				  <!-- /about member -->
+                </div>
+			    <!-- end team member -->
+			
+				</td>
+                <td width="250">
+					
+			    <!-- team member -->
+                <div id="team-member4" align="center">
+				  <div id="member-photo4">
+					<!-- member photo -->
+					<img src="static/yixue.png" alt="" width="215" height="215" />
+					<!-- /member photo -->
+				  </div>
+					
+				  <!-- member name & designation -->
+				  <div id="member-meta4">
+					<h4>Yixue Wang</h4>
+					  <span class="textteam">Team Member</span>
+					  <p class="textteam">Front-end development,<br> design and improvement of webpages</p>
+					  <p class="textteam"><a href="https://www.linkedin.com/in/yixue-wang-7b4aa9227/" target="_blank"><font color="#448D38"><b>Get in touch →</b></font></a></p>
+                  </div>
+				  <!-- /member name & designation -->
+				  <!-- /about member -->
+                </div>
+			    <!-- end team member -->
+			
+				</td>
+                <td width="250">
+					
+			    <!-- team member -->
+                <div id="team-member5" align="center">
+				  <div id="member-photo5">
+					<!-- member photo -->
+					<img src="static/georgie.png" alt="" width="215" height="215" />
+					<!-- /member photo -->
+				  </div>
+					
+				  <!-- member name & designation -->
+				  <div id="member-meta5">
+					<h4>Georgie Mills</h4>
+					<span class="textteam">Team Member</span>
+					<p class="textteam">Contributions to the creation of the index and the writing of the report</p>
+					<p class="textteam"><a href="https://www.linkedin.com/in/georgie-mills-074253198/" target="_blank"><font color="#448D38"><b>Get in touch →</b></font></a></p>
+                  </div>
+			      <!-- /member name & designation -->
+				  <!-- /about member -->
+                </div>
+			    <!-- end team member -->
+			    </td></tr></table>
+		  </div>  	<!-- End row -->
+	    </div>   	<!-- End container -->
+      </section>   <!-- End section -->
+
+      <!-- 
+      Start Contact Section
+      =========================================== -->
+      <section id="Contact Us">
+		<div id="about-contact">
+          <div class="container">
+            <div class="row">
+              <div class="text-center" align="center">
+                <hr>
+				<font size="+3"><b><font color="#448D38">Contact</font> Us</b></font>
+				<p><font size="+1">Couldn't find what you were looking for? Or have a great idea?<br> We value your feedback and want to hear from you. <br>Find our contact information below or use our Contact Form.</font></p>
+                <hr>
+              </div>
+
+			  <table align="center"><tr><td>
+              <div class="contactform">
+                <div id="about-contact-map"> </div>
+				  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2234.1068709586334!2d-3.184493433065796!3d55.94751958276272!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c7867af4d627%3A0x6480c21767440089!2sOld%20Infirmary%20Building%2C%201%20Drummond%20St%2C%20Edinburgh%20EH8%209XP!5e0!3m2!1sen!2suk!4v1639659968679!5m2!1sen!2suk" width="700" height="410" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="clearfix"></div>
+                  <i>You can find us on Old Infirmary Building, 1 Drummond St, Edinburgh EH8 9XP.</i>
+                </div>
+			  </td>
+			  <td width="400">
+              <div id="contact_right">
+                <p class="textcontact"><img src="static/location.png" alt="" width="20" height="20" /> Old Infirmary Building, 1 Drummond St, Edinburgh EH8 9XP.</p>
+                <p class="textcontact"><img src="static/phone.png"  alt="" width="20" height="20"/> +44 (0) 131 651 7068</p>
+			    <p class="textcontact"><img src="static/email.png"  alt="" width="20" height="20"/><a href="mailto:enquiries.geos@ed.ac.uk"> enquiries.geos@ed.ac.uk </a></p>
+                <p class="textcontact"><img src="static/web.png" alt="icon 3" width="20" height="20"/><a  href="https://www.ed.ac.uk/geosciences" target="_blank"> https://www.ed.ac.uk/geosciences</a></p>
+         
+			    <div align="right">
+                  <form class="form-horizontal" action="mailto:s2187901@ed.ac.uk" method="post" enctype="text/plain">
+                    <input type="text" name="user name" class="form-control" placeholder="Your Name..." maxlength="40" />
+                    <input type="text" name="user email" class="form-control" placeholder="Your Email..." maxlength="40" />
+                    <textarea  name="user message" class="form-control" style="height: 130px;" placeholder="Write down your message..."></textarea>
+                    <button type="submit" style="background-color:#19422A"><font color="#FFFFFF">SEND</font></button>
+                  </form>
+                </div>
+			  </div>
+			  </td></tr></table>
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /#about-contact -->
+	  </section><!-- End section -->
+
+	  <!-- 
+      Start Contact Section
+      =========================================== -->
+	  <section id="more information">
+        <div id="about-more" style="background-color:#F4F3EF">
+          <div class="container">
+            <div class="row">
+
+              <div id="about-line-header" >
+                <div class="text-center" align="center">
+				  <hr>
+                  <font size="+3"><b>More <font color="#448D38">Information</font></b></font>
+				  <br>
+				  <p><font size="+1">Visit our partner websites to learn more about the greenspaces in Edinburgh ...</font></p>
+                  <hr>
+                </div>
+              </div>
+					
+              <div class="text-center">
+                <div style="margin-top:60px;">
+                  <ul class="list-inline">
+					<table align="center"><tr><td width="240" align="center">
+                    <li id="about-more-item1">
+				      <div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/carbon-dynamics/" target="_blank"><img src="static/carbon.png" alt="" width="150" height="150" /></a></div>
+                      <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/carbon-dynamics/" target="_blank">Value in terms of <br> a carbon sink</a>
+                    </li>
+					</td>
+					<td width="240" align="center">
+                      <li id="about-more-item2">
+						<div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/flood-risk-alleviation/" target="_blank"><img src="static/flood.png" alt="" width="150" height="150" /></a></div>
+                        <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/flood-risk-alleviation/" target="_blank">Flood <br> management</a>
+                      </li>
+					</td>
+					<td width="240" align="center">
+                      <li id="about-more-item3">
+						<div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/biodiversity/" target="_blank"><img src="static/eco.png" alt="" width="150" height="150" /></a></div>
+                        <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/biodiversity/" target="_blank">Ecological <br> significance</a>
+                      </li>
+					</td>
+					<td width="240" align="center">
+                      <li id="about-more-item4">
+						<div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/noise-abatement/" target="_blank"><img src="static/noice.png" alt="" width="150" height="150" /></a></div>
+                        <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/noise-abatement/" target="_blank">Reducing <br> pollution</a>
+                      </li>
+					</td>
+					<td width="240" align="center">
+                      <li id="about-more-item5">
+						<div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/improving-physical-health/" target="_blank"><img src="static/health.png" alt="" width="150" height="150" /></a></div>
+                        <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/improving-physical-health/" target="_blank">Health <br> benefits</a>
+                      </li>
+					</td>
+					<td width="240" align="center">
+                      <li id="about-more-item6">
+						<div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/culture-and-heritage/" target="_blank"><img src="static/ch.png" alt="" width="150" height="150" /></a></div>
+                        <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/culture-and-heritage/" target="_blank">Cultural and <br>historical value</a>
+                      </li>
+					</td></tr></table>
+                  </ul>
+                </div>
+			  </div>
+            </div>
+          </div>
+        </div>
+	  </section><!-- End section -->
+		
+	  <!--- bottom -->
+      <div>
+	    <hr>
+	  </div>
+	  <div id="footer_bottom_content" style="background-color:#19422A">
+	    <div class="text-center" align="center">
+          <span id="footer-line" style="line-height:100px"><font color="#FFFFFF">Design © 2021 Group 6 ARQI,<a href="https://www.ed.ac.uk/geosciences" target="_blank"> School of GeoSciences, The University of Edinburgh</a></font></span>
+		</div>
+      </div>
+		
+
+
+  </body>
+</html>
+
+{% endblock %}

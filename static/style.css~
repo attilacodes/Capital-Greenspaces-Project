@@ -1,0 +1,213 @@
+html {
+    height:100%;
+    overflow:auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #5a5a5a;
+    font-weight: 300;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+.titleTxt {
+  margin-top: 91px;
+}
+
+body {
+  font-family: 'Lato', 'Arial', sans-serif !important;
+  margin: 0 ;
+  font-size: 18px;
+  height: 100%;
+}
+
+h1,h3,h4,h5 {
+    font-family: 'Lato', 'Arial', sans-serif !important;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+p {
+  font-size: 18px;
+}
+.about-section {
+  padding:18px 80px 700px 60px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url("homepage.jpg");
+  background-position: bottom center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+}
+.database-header {
+  padding:18px 80px 700px 60px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url("database.jpg");
+  background-position: bottom center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Center Image */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Style the header with a white  background and some padding */
+.header {
+  overflow: hidden;
+  background-color:transparent ;
+  padding: 20px 10px;
+  position:fixed;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: #bfbfbf;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Lato', 'Arial', sans-serif !important;
+  margin: auto;
+  font-size: 20px;
+
+}
+
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ACDF87;
+  color: black;
+  transition: 0.3s;
+
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: darkgreen;
+  color: white;
+}
+
+/*Container 1 */
+#container{
+   width: 100%;
+   height: 100%;
+   margin: 50px;
+   padding: 50px;
+}
+
+/* Icons */
+#icons {
+    height:auto;
+    width:auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* Container 2 */
+
+.container {
+    width: auto;
+    overflow: hidden;
+    background: #fff;
+    margin: 30px;
+    padding: 30px;
+    position:relative
+
+}
+
+
+/* Box */
+.box.higlight{
+    text-align: left;
+    position: relative;
+    padding-left: 7em;
+}
+
+
+/* Button for external link */
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #219661;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  transition: background-color 0.3s;
+
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: #7BE48B
+}
+
+
+
+
+/* Button for ScrollToTop */
+#btnScrollToTop{
+    position:fixed;
+    background-color: darkgreen;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25)
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    right: 10px;
+    bottom: 10px;
+    height: 50px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: grey;
+  text-align: center;
+}
+
+
+.wrapper{
+  width:100%;
+  padding-top: 15px;
+  text-align:center;
+}
+h2{
+  font-family:Calibri;
+  color:black;
+  font-size: 20px;
+}
+.carousel{
+  width:75%;
+  margin:0px auto;
+}
+.slick-slide{
+  margin:10px;
+}
+.slick-slide img{
+  width:100%;
+  border: 2px solid black;
+}
+.wrapper .slick-dots li button:before {
+  font-size:20px;
+  color:green;
+}

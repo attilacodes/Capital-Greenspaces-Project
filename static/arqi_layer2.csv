@@ -1,0 +1,598 @@
+X,Y,DataZone,SUM_Recrea,Rank_1,Quintile,Nearest_gr,Parks_acce,Shape_Leng,Shape_Area,datazone_name
+312888.4627,664147.9,S01008417,0,1,1,0,,20191.72142,10299931.77,Balerno and Bonnington Village - 01
+315544.3322,662791.5,S01008418,0,1,1,0,,25944.86179,23570497.47,Balerno and Bonnington Village - 02
+316895.8858,666033.1955,S01008419,0,1,1,0,,5738.935106,1366456.875,Balerno and Bonnington Village - 03
+316234.101,665916,S01008420,0,1,1,0,,1890.096713,105196.6891,Balerno and Bonnington Village - 04
+316225.4783,666284.0735,S01008421,0,1,1,0,,2645.609037,146544.0702,Balerno and Bonnington Village - 05
+316075.5365,666454.5695,S01008422,0,1,1,0,,3329.511439,231579.867,Balerno and Bonnington Village - 06
+314488.236,667436.3327,S01008423,0,1,1,0,,29598.55502,11999499.03,Balerno and Bonnington Village - 07
+316999.0116,667334.5,S01008424,0,1,1,0,,3516.711994,325527.2455,Balerno and Bonnington Village - 08
+316503.0213,668852,S01008425,0,1,1,0,,18368.1086,7587827.66,Currie West - 01
+317560.6917,667843.9995,S01008426,0,1,1,0,,2653.859844,187809.7975,Currie West - 02
+317113.6045,667770,S01008427,0,1,1,0,,2759.623827,185719.4489,Currie West - 03
+317425.5131,667477.5,S01008428,0,1,1,0,,2495.838545,142539.3434,Currie West - 04
+318141.9933,667971.1315,S01008429,0,1,1,0,,2752.997091,191754.8775,Currie East - 01
+318684.728,667884,S01008430,0,1,1,0,,6492.456263,468143.4763,Currie East - 02
+318620.2308,668310,S01008431,0,1,1,0,,2715.333651,172466.6388,Currie East - 03
+318817.639,668904,S01008432,0,1,1,0,,7622.541832,1326992.107,Currie East - 04
+319267.1371,669432.8815,S01008433,0,1,1,0,,2230.903509,173836.0207,Baberton and Juniper Green - 01
+319655.7666,669461.3025,S01008434,0,1,1,0,,3609.616844,200387.4483,Baberton and Juniper Green - 02
+320093.9807,669229.008,S01008435,0,1,1,0,,2896.579216,295431.2253,Baberton and Juniper Green - 03
+320010.1406,668819.5,S01008436,0,1,1,0,,2721.611255,236560.0861,Baberton and Juniper Green - 04
+319711.7176,668575.6545,S01008437,0,1,1,0,,2875.176657,267944.4025,Baberton and Juniper Green - 05
+321017.9364,666504.056,S01008438,0,1,1,0,,29038.59956,18303958.6,Bonaly and The Pentlands - 01
+321218.0477,668242.458,S01008439,0,1,1,0,,3883.040836,366898.7694,Bonaly and The Pentlands - 02
+321707.7078,668502.5,S01008440,0,1,1,0,,3690.756935,334193.2688,Bonaly and The Pentlands - 03
+320825.4239,668587.0005,S01008441,0,1,1,0,,1751.69543,117596.621,Bonaly and The Pentlands - 04
+321314.7819,668844.302,S01008442,0,1,1,0,,3989.609178,283895.4074,Bonaly and The Pentlands - 05
+320901.0764,669149.4995,S01008443,0,1,1,0,,3430.022042,324926.9342,Bonaly and The Pentlands - 06
+322799.7852,668591.5,S01008444,0,1,1,0,,4962.821324,633908.7273,Colinton and Kingsknowe - 01
+322269.1931,669249.8935,S01008445,2.25,369,3,3,Colinton & Craiglockhart Dells,3540.17015,525311.8553,Colinton and Kingsknowe - 02
+321730.412,669336,S01008446,2.25,369,3,11,Colinton & Craiglockhart Dells,6399.618005,754069.9554,Colinton and Kingsknowe - 03
+321213.5557,669589,S01008447,2.25,369,3,8,"Hailes Quarry Park,Colinton & Craiglockhart Dells",4684.041515,357166.5617,Colinton and Kingsknowe - 04
+320901.6076,670021.4795,S01008448,3.67,487,4,31,"Hailes Quarry Park,Colinton & Craiglockhart Dells",5453.677931,751343.2974,Colinton and Kingsknowe - 05
+320495.749,669310.386,S01008449,0,1,1,0,,1829.233727,139920.9623,Clovenstone and Wester Hailes - 01
+320492.2531,669579.729,S01008450,0,1,1,0,,1545.455427,79047.39225,Clovenstone and Wester Hailes - 02
+320007.3306,669511.403,S01008451,0,1,1,0,,1218.629138,62012.42784,Clovenstone and Wester Hailes - 03
+320185.0897,669623.805,S01008452,0,1,1,0,,1161.102237,52595.44204,Clovenstone and Wester Hailes - 04
+320104.853,669777.802,S01008453,1.42,256,2,3,Hailes Quarry Park,1201.515281,53552.77342,Clovenstone and Wester Hailes - 05
+319352.4935,669813.1065,S01008454,0,1,1,0,,2370.409891,89683.37794,The Calders - 01
+318926.5616,670285.07,S01008455,0,1,1,0,,2438.411858,161309.1362,The Calders - 02
+319279.3838,670257.6375,S01008456,0,1,1,0,,1827.078361,102311.9447,The Calders - 03
+319416.3187,670416.5,S01008457,0,1,1,0,,1876.934128,94679.1197,The Calders - 04
+319723.3891,670290,S01008458,2.65,408,3,13,"Sighthill Park,Hailes Quarry Park",3852.357528,280304.6187,The Calders - 05
+319905.3481,669949.833,S01008459,1.42,256,2,19,Hailes Quarry Park,2848.92032,186125.1542,Murrayburn and Wester Hailes North - 01
+320044.0098,670302,S01008460,1.42,256,2,20,"Hailes Quarry Park,Sighthill Park",1612.252021,65523.41535,Murrayburn and Wester Hailes North - 02
+320351.2671,670341.737,S01008461,2.65,408,3,34,"Sighthill Park,Hailes Quarry Park",3182.429895,138851.2936,Murrayburn and Wester Hailes North - 03
+320589.6966,670152,S01008462,1.42,256,2,23,Hailes Quarry Park,2243.08281,121962.8993,Murrayburn and Wester Hailes North - 04
+320772.3584,670655,S01008463,1.42,256,2,23,Hailes Quarry Park,3314.542364,243734.2971,Murrayburn and Wester Hailes North - 05
+320606.3848,670882.4755,S01008464,2.65,408,3,34,"Sighthill Park,Hailes Quarry Park",2156.223447,114827.1583,Parkhead and Sighthill - 01
+320342.5758,670733.9995,S01008465,2.65,408,3,33,"Sighthill Park,Hailes Quarry Park",1782.894586,115931.3787,Parkhead and Sighthill - 02
+320022.4414,670634.5,S01008466,2.65,408,3,30,"Sighthill Park,Hailes Quarry Park",1743.039454,102261.9755,Parkhead and Sighthill - 03
+319898.3278,670476.4995,S01008467,2.65,408,3,13,"Sighthill Park,Hailes Quarry Park",1592.796063,85255.92996,Parkhead and Sighthill - 04
+319556.7305,671033.6675,S01008468,1.23,252,2,11,Sighthill Park,5770.179367,769506.9657,Broomhouse and Bankhead - 01
+320291.2777,670993,S01008469,2.65,408,3,24,"Sighthill Park,Hailes Quarry Park",1680.650109,86358.61742,Broomhouse and Bankhead - 02
+320224.9718,671234.5,S01008470,1.23,252,2,11,Sighthill Park,2306.074113,115266.2906,Broomhouse and Bankhead - 03
+319984.9666,671491.5,S01008471,1.23,252,2,11,Sighthill Park,2059.323905,112547.2161,Broomhouse and Bankhead - 04
+320467.6499,671418.856,S01008472,2.65,408,3,16,"Sighthill Park,Hailes Quarry Park",2677.46473,226721.5208,Broomhouse and Bankhead - 05
+320795.1975,671490.5,S01008473,0,1,1,0,,2147.120948,92240.51241,Stenhouse and Saughton Mains - 01
+320739.7939,671790.5215,S01008474,2.75,425,3,1,Saughton Park,1927.576361,139598.0911,Stenhouse and Saughton Mains - 02
+321171.5277,671764,S01008475,2.75,425,3,18,Saughton Park,2473.81462,91988.15564,Stenhouse and Saughton Mains - 03
+321279.0956,671953.5,S01008476,2.75,425,3,38,Saughton Park,1444.868466,93797.2565,Stenhouse and Saughton Mains - 04
+321603.2892,672189,S01008477,5.06,525,5,50,"Corstorphine Hill,Saughton Park",2228.270672,119099.6473,Stenhouse and Saughton Mains - 05
+321985.1973,671892,S01008478,2.75,425,3,48,Saughton Park,4121.962698,327571.9384,Stenhouse and Saughton Mains - 06
+321637.4398,671705.2575,S01008479,2.75,425,3,48,Saughton Park,2465.008401,149007.4674,Stenhouse and Saughton Mains - 07
+321087.1077,671556.5,S01008480,2.75,425,3,9,Saughton Park,1578.95768,80909.45393,Stenhouse and Saughton Mains - 08
+321086.3318,671215.231,S01008481,4.17,508,4,36,"Hailes Quarry Park,Saughton Park",3191.935762,337472.0149,Longstone and Saughton - 01
+321320.6773,670907.5,S01008482,1.42,256,2,19,Hailes Quarry Park,1710.477466,91619.52627,Longstone and Saughton - 02
+321023.0452,670514.5,S01008483,3.67,487,4,25,"Hailes Quarry Park,Colinton & Craiglockhart Dells",1498.194725,63507.3045,Longstone and Saughton - 03
+321273.97,670522.5,S01008484,3.67,487,4,28,"Hailes Quarry Park,Colinton & Craiglockhart Dells",2407.4416,176313.765,Longstone and Saughton - 04
+321719.1978,670723.5,S01008485,3.67,487,4,11,"Hailes Quarry Park,Colinton & Craiglockhart Dells",2190.456582,228523.7528,Longstone and Saughton - 05
+321722.6439,671281.13,S01008486,4.17,508,4,47,"Hailes Quarry Park,Saughton Park",2805.374519,258025.0457,Slateford and Chesser - 01
+322062.5861,671241.9935,S01008487,5,523,5,51,"Colinton & Craiglockhart Dells,Saughton Park",3575.584113,267562.0498,Slateford and Chesser - 02
+322388.9958,671266.3945,S01008488,0,1,1,0,,1846.377254,100449.4487,Slateford and Chesser - 03
+322354.2445,671736.0005,S01008489,2.75,425,3,48,Saughton Park,1596.576381,95744.97883,Slateford and Chesser - 04
+322568.5065,671553.9855,S01008490,0,1,1,2,Saughton Park,1356.526181,88226.27782,Slateford and Chesser - 05
+322751.8013,671693.3975,S01008491,2.75,425,3,27,Saughton Park,1764.685237,92887.83728,Slateford and Chesser - 06
+322830.8261,672005.5005,S01008492,0,1,1,4,Saughton Park,1414.163983,74847.33905,Gorgie West - 01
+322575.3724,672104.5,S01008493,2.75,425,3,48,Saughton Park,2890.767987,178472.2424,Gorgie West - 02
+322440.6346,672429.5,S01008494,5.06,525,5,50,"Corstorphine Hill,Saughton Park",4074.652758,270628.1214,Gorgie West - 03
+322939.006,672439.5,S01008495,0,1,1,2,Saughton Park,1554.982613,100496.9779,Gorgie West - 04
+322998.2274,672161.3065,S01008496,0,1,1,2,Saughton Park,905.8486817,34585.48585,Gorgie West - 05
+323152.5447,672158.5,S01008497,0,1,1,0,,1441.150012,47945.65798,Gorgie East - 01
+323288.1994,672408,S01008498,0,1,1,0,,2221.70409,185583.1018,Gorgie East - 02
+323232.2507,672776.149,S01008499,0,1,1,0,,2728.057528,150200.5375,Gorgie East - 03
+323536.2339,672867.8685,S01008500,0,1,1,0,,570.6834449,15548.97425,Gorgie East - 04
+323689.5654,672936.4575,S01008501,0,1,1,0,,966.8545422,23719.91484,Gorgie East - 05
+323023.4023,672039.5915,S01008502,0,1,1,0,,924.721379,28440.28809,Shandon - 01
+323052.4538,671905,S01008503,0,1,1,0,,1584.4326,46493.51031,Shandon - 02
+323011.881,671667,S01008504,0,1,1,0,,2099.029975,88637.36978,Shandon - 03
+323228.5955,671799.2285,S01008505,0,1,1,0,,1218.963915,42273.1135,Shandon - 04
+323590.6187,671738.0005,S01008506,0,1,1,1,Easter Craiglockhart Hill,2307.276783,189703.6434,Shandon - 05
+323514.2287,672062,S01008507,0,1,1,0,,1987.276104,110563.358,Shandon - 06
+323137.8293,671236,S01008508,1.99,301,2,3,Easter Craiglockhart Hill,3944.001751,208874.7765,Craiglockhart - 01
+322782.4512,671165.5,S01008509,1.99,301,2,3,Easter Craiglockhart Hill,4040.931935,366495.4002,Craiglockhart - 02
+322447.3299,670776.5,S01008510,5.72,547,5,13,"Wester Craiglockhart Hill,Colinton & Craiglockhart Dells,Easter Craiglockhart Hill",3588.873379,244910.896,Craiglockhart - 03
+322813.0905,670168.5,S01008511,5.72,547,5,8,"Wester Craiglockhart Hill,Colinton & Craiglockhart Dells,Easter Craiglockhart Hill",6297.01255,665474.6176,Craiglockhart - 04
+322269.1268,670271.5,S01008512,3.73,491,4,8,"Wester Craiglockhart Hill,Colinton & Craiglockhart Dells",1880.31413,144533.1046,Craiglockhart - 05
+322035.0198,670106.5,S01008513,2.25,369,3,11,Colinton & Craiglockhart Dells,3845.812659,336905.7925,Craiglockhart - 06
+323342.3256,670527,S01008514,3.47,459,4,10,"Wester Craiglockhart Hill,Colinton & Craiglockhart Dells,Easter Craiglockhart Hill,Braidburn Valley Park,Hermitage of Braid/Blackford Hill & Pond",4108.204095,588492.0806,Morningside and Craighouse - 01
+323912.4783,670660.5,S01008515,0,1,1,4,"Braidburn Valley Park,Hermitage of Braid/Blackford Hill & Pond",1521.448509,94673.02743,Morningside and Craighouse - 02
+323890.4183,670908.5,S01008516,1.99,301,2,5,"Easter Craiglockhart Hill,Braidburn Valley Park",2106.351443,82754.69621,Morningside and Craighouse - 03
+324294.6669,670798.5,S01008517,2.31,381,3,7,"Hermitage of Braid/Blackford Hill & Pond,Braidburn Valley Park",1867.550266,125467.4064,Morningside and Craighouse - 04
+324135.2408,670553.57,S01008518,0,1,1,4,"Braidburn Valley Park,Hermitage of Braid/Blackford Hill & Pond",1839.345538,95651.19897,Morningside and Craighouse - 05
+324077.0576,670326.4995,S01008519,2.78,434,3,7,"Braidburn Valley Park,Hermitage of Braid/Blackford Hill & Pond",2236.184767,129800.3831,Greenbank and The Braids - 01
+324571.6241,669985.5,S01008520,5.09,532,5,21,"Braidburn Valley Park,Hermitage of Braid/Blackford Hill & Pond",6662.368248,507695.7291,Greenbank and The Braids - 02
+324011.0678,669815.5,S01008521,2.78,434,3,10,"Braidburn Valley Park,Hermitage of Braid/Blackford Hill & Pond",2816.670187,373188.7673,Greenbank and The Braids - 03
+323561.7323,670034.897,S01008522,4.26,510,4,11,"Braidburn Valley Park,Wester Craiglockhart Hill,Hermitage of Braid/Blackford Hill & Pond",1918.934808,110010.6776,Greenbank and The Braids - 04
+323371.6445,669810.118,S01008523,4.26,510,4,6,"Wester Craiglockhart Hill,Braidburn Valley Park",2368.331752,248011.4769,Greenbank and The Braids - 05
+323916.8932,669352.0125,S01008524,2.78,434,3,6,Braidburn Valley Park,2841.025646,135399.3542,Colinton Mains and Firrhill - 01
+323250.7907,669181.574,S01008525,2.78,434,3,6,Braidburn Valley Park,3439.096488,188770.6198,Colinton Mains and Firrhill - 02
+322964.0344,669500.14,S01008526,0,1,1,0,,3059.671237,258281.6524,Colinton Mains and Firrhill - 03
+322997.743,669128.5,S01008527,0,1,1,0,,1556.304003,91153.08198,Colinton Mains and Firrhill - 04
+323146.3007,668933.3705,S01008528,0,1,1,0,,1440.977419,80236.43686,Colinton Mains and Firrhill - 05
+323309.0786,668729.2935,S01008529,0,1,1,0,,1985.619613,114554.5974,Oxgangs - 01
+323555.399,668922.5,S01008530,2.78,434,3,2,Braidburn Valley Park,1509.189925,79070.71231,Oxgangs - 02
+323798.4551,669045.7535,S01008531,2.78,434,3,6,Braidburn Valley Park,2291.081466,133218.739,Oxgangs - 03
+323810.5808,668679.556,S01008532,0,1,1,0,,1438.968949,72725.22086,Oxgangs - 04
+323372.0577,668528.5,S01008533,0,1,1,0,,2379.477858,137716.6243,Comiston and Swanston - 01
+323179.1976,668255.5,S01008534,0,1,1,0,,2139.335526,167586.1792,Comiston and Swanston - 02
+323740.2502,668153.039,S01008535,0,1,1,0,,2439.306896,187636.8517,Comiston and Swanston - 03
+324051.0979,668510.95,S01008536,0,1,1,0,,2068.878902,127985.9576,Comiston and Swanston - 04
+324213.1145,668125.881,S01008537,0,1,1,0,,2128.084886,147394.4025,Comiston and Swanston - 05
+324451.9698,668429.5,S01008538,0,1,1,1,Braidburn Valley Park,2786.748595,174270.5395,Comiston and Swanston - 06
+324204.1534,668825.415,S01008539,2.78,434,3,6,Braidburn Valley Park,2986.635793,257283.1054,Comiston and Swanston - 07
+324309.3743,669236,S01008540,2.78,434,3,8,Braidburn Valley Park,2717.135215,249354.502,Comiston and Swanston - 08
+324876.5905,668990,S01008541,2.78,434,3,3,Braidburn Valley Park,2355.976881,133666.8237,Fairmilehead - 01
+324875.8533,668627.241,S01008542,2.78,434,3,6,Braidburn Valley Park,3137.228434,309881.3093,Fairmilehead - 02
+325162.2552,668860,S01008543,0,1,1,0,,2282.950789,108432.246,Fairmilehead - 03
+325366.1742,668417.3115,S01008544,0,1,1,0,,2515.344201,162731.5761,Fairmilehead - 04
+325410.72,667989.2355,S01008545,0,1,1,0,,4471.232071,403232.6424,Fairmilehead - 05
+324913.6441,667592.7725,S01008546,0,1,1,0,,5643.491007,571344.0389,Fairmilehead - 06
+328277.9381,667792.5,S01008547,1.71,284,2,27,,4479.990458,444435.9444,Gilmerton South and the Murrays - 01
+328617.8624,667798.7135,S01008548,1.71,284,2,24,,3749.549918,263104.488,Gilmerton South and the Murrays - 02
+330277.7178,668047.463,S01008549,2.5,399,3,10,"Burdiehouse Burn Valley Park inc Moredun Wood,Mortonhall Caravan Park",21197.9292,6042237.23,Gilmerton South and the Murrays - 03
+326226.7641,668492.1975,S01008550,0.79,247,2,2,Mortonhall Caravan Park,4880.907844,491633.3987,Mortonhall and Anwickhill - 01
+327000.8363,668505.06,S01008551,0,1,1,2,"Mortonhall Caravan Park,Burdiehouse Burn Valley Park inc Moredun Wood",2838.127731,211237.3086,Mortonhall and Anwickhill - 02
+326950.5349,668220,S01008552,1.71,284,2,4,"Burdiehouse Burn Valley Park inc Moredun Wood,Mortonhall Caravan Park",2898.067529,291260.9745,Mortonhall and Anwickhill - 03
+327557.6442,667898.5,S01008553,1.71,284,2,25,"Burdiehouse Burn Valley Park inc Moredun Wood,Mortonhall Caravan Park",2715.657708,141397.2283,"Gracemount, Southhouse and Burdiehouse - 01"
+327686.3744,667584,S01008554,1.71,284,2,3,Burdiehouse Burn Valley Park inc Moredun Wood,3329.706551,246353.1824,"Gracemount, Southhouse and Burdiehouse - 02"
+327914.2251,668093.782,S01008555,1.71,284,2,27,Burdiehouse Burn Valley Park inc Moredun Wood,2347.006293,114923.798,"Gracemount, Southhouse and Burdiehouse - 03"
+327519.0823,668488.4245,S01008556,1.71,284,2,20,Burdiehouse Burn Valley Park inc Moredun Wood,1633.393582,96592.84271,"Gracemount, Southhouse and Burdiehouse - 04"
+327964.8395,668552.087,S01008557,1.71,284,2,27,Burdiehouse Burn Valley Park inc Moredun Wood,4266.203209,343463.3822,"Gracemount, Southhouse and Burdiehouse - 05"
+327515.9941,668832.6255,S01008558,1.71,284,2,2,Burdiehouse Burn Valley Park inc Moredun Wood,2122.731021,165316.9535,"Gracemount, Southhouse and Burdiehouse - 06"
+328423.5398,668739,S01008559,1.71,284,2,24,Burdiehouse Burn Valley Park inc Moredun Wood,1493.152572,108648.7867,Hyvots and Gilmerton - 01
+328509.2625,668271.403,S01008560,1.71,284,2,24,Burdiehouse Burn Valley Park inc Moredun Wood,1604.808594,135538.9037,Hyvots and Gilmerton - 02
+328662.6105,668850,S01008561,1.71,284,2,24,Burdiehouse Burn Valley Park inc Moredun Wood,2381.339244,126180.2421,Hyvots and Gilmerton - 03
+328832.3911,668600.4315,S01008562,1.71,284,2,24,Burdiehouse Burn Valley Park inc Moredun Wood,2527.007513,157738.1387,Hyvots and Gilmerton - 04
+329084.6394,668582.012,S01008563,1.71,284,2,4,Burdiehouse Burn Valley Park inc Moredun Wood,2997.101922,146640.3079,Hyvots and Gilmerton - 05
+329506.6815,668809,S01008564,0,1,1,0,,2121.191448,112350.4008,Fernieside and Moredun South - 01
+329231.5291,669075.4995,S01008565,0,1,1,0,,2968.052741,217986.0013,Fernieside and Moredun South - 02
+329469.0176,669360.7545,S01008566,0,1,1,0,,2317.331456,159374.9602,Fernieside and Moredun South - 03
+329257.5802,669556.0005,S01008567,0,1,1,0,,2295.708773,142699.4048,Fernieside and Moredun South - 04
+328965.6479,670163.5,S01008568,2.86,444,4,6,Craigmillar Castle Park inc Hawkhill,3459.56729,224381.3039,Fernieside and Moredun South - 05
+328959.7735,669958,S01008569,0,1,1,0,,729.3772567,29005.56513,Moredun and Craigour - 01
+329050.5254,669725.5,S01008570,0,1,1,0,,2119.109057,104035.0983,Moredun and Craigour - 02
+328857.7293,669243.999,S01008571,0,1,1,0,,1910.343129,126065.5696,Moredun and Craigour - 03
+328747.1869,669691.816,S01008572,0,1,1,0,,2991.947016,202060.4289,Moredun and Craigour - 04
+328607.4079,669168.6105,S01008573,0,1,1,2,Burdiehouse Burn Valley Park inc Moredun Wood,2253.820127,222206.4536,Liberton East - 01
+328215.9037,668933.653,S01008574,1.71,284,2,24,Burdiehouse Burn Valley Park inc Moredun Wood,1585.62855,135663.3848,Liberton East - 02
+327999.6644,669270,S01008575,1.71,284,2,22,Burdiehouse Burn Valley Park inc Moredun Wood,2733.695831,230384.0055,Liberton East - 03
+327989.3008,669729,S01008576,0,1,1,2,Inch Park,2753.280893,239455.4326,Liberton East - 04
+327489.5226,669344,S01008577,1.71,284,2,2,Burdiehouse Burn Valley Park inc Moredun Wood,3467.249782,269238.9865,Liberton West and Braid Hills - 01
+327257.94,669774,S01008578,0,1,1,0,,2931.218433,186329.8719,Liberton West and Braid Hills - 02
+325754.7875,669485.2245,S01008579,5.88,563,5,18,"Braidburn Valley Park,Hermitage of Braid/Blackford Hill & Pond,Mortonhall Caravan Park",12370.16728,3543361.622,Liberton West and Braid Hills - 03
+327396.9684,670232,S01008580,2.3,373,3,36,Inch Park,2130.215525,138435.4423,Liberton West and Braid Hills - 04
+327591.2725,670071.281,S01008581,2.3,373,3,10,Inch Park,2236.438799,128331.5992,The Inch - 01
+327630.4084,669802.177,S01008582,0,1,1,2,Inch Park,2404.847964,165407.2415,The Inch - 02
+327918.2416,670243,S01008583,2.3,373,3,16,"Inch Park,Craigmillar Castle Park inc Hawkhill",2081.191669,101990.3432,The Inch - 03
+328295.3078,670305,S01008584,5.16,534,5,29,"Inch Park,Craigmillar Castle Park inc Hawkhill",2583.960956,111645.0337,The Inch - 04
+328242.4015,670651.5,S01008585,5.16,534,5,58,"Inch Park,Craigmillar Castle Park inc Hawkhill",2840.101811,192085.9676,The Inch - 05
+327963.6631,670691.5,S01008586,5.16,534,5,66,"Inch Park,Craigmillar Castle Park inc Hawkhill",3062.798314,153842.2896,The Inch - 06
+326382.0323,670722.8755,S01008587,4.61,515,4,69,"Inch Park,Craigmillar Castle Park inc Hawkhill",8207.653167,1364072.221,"Blackford, West Mains and Mayfield Road - 01"
+326179.9103,671032.5,S01008588,2.31,381,3,10,Hermitage of Braid/Blackford Hill & Pond,2482.45984,140170.4912,"Blackford, West Mains and Mayfield Road - 02"
+326196.8859,671325.8045,S01008589,2.31,381,3,6,Hermitage of Braid/Blackford Hill & Pond,1016.096788,56953.64769,"Blackford, West Mains and Mayfield Road - 03"
+326362.8083,671193.6785,S01008590,2.31,381,3,6,Hermitage of Braid/Blackford Hill & Pond,1635.508582,75495.62723,"Blackford, West Mains and Mayfield Road - 04"
+326593.0466,671309.1995,S01008591,0,1,1,1,Hermitage of Braid/Blackford Hill & Pond,2453.139006,97605.88202,"Blackford, West Mains and Mayfield Road - 05"
+326522.9795,670945,S01008592,2.31,381,3,6,Hermitage of Braid/Blackford Hill & Pond,1458.732997,104242.8835,"Blackford, West Mains and Mayfield Road - 06"
+326849.1695,671057.5,S01008593,2.3,373,3,15,Inch Park,2477.141516,168953.229,"Blackford, West Mains and Mayfield Road - 07"
+327011.1136,671377.4995,S01008594,2.3,373,3,25,"Inch Park,Craigmillar Castle Park inc Hawkhill",3417.912004,267231.357,"Blackford, West Mains and Mayfield Road - 08"
+327815.7174,671454.212,S01008595,5.16,534,5,62,"Inch Park,Craigmillar Castle Park inc Hawkhill",3433.494446,271138.0984,Prestonfield - 01
+327605.3603,671640.5935,S01008596,2.3,373,3,19,"Inch Park,Craigmillar Castle Park inc Hawkhill",2040.620812,104906.179,Prestonfield - 02
+327893.9058,671962.5,S01008597,8.97,590,5,41,"Inch Park,Holyrood Park,Craigmillar Castle Park inc Hawkhill",4675.076971,653329.6532,Prestonfield - 03
+327231.2611,671913,S01008598,2.3,373,3,3,Inch Park,1633.400782,74751.51447,Prestonfield - 04
+327101.0936,671620,S01008599,2.3,373,3,27,"Inch Park,Craigmillar Castle Park inc Hawkhill",3254.50731,219502.3304,Newington and Dalkeith Road - 01
+326848.6814,672031.407,S01008600,5.8,551,5,49,"Inch Park,Craigmillar Castle Park inc Hawkhill",2164.603662,151015.8163,Newington and Dalkeith Road - 02
+326797.4228,672393.9495,S01008601,7.47,586,5,97,"Inch Park,Craigmillar Castle Park inc Hawkhill",3030.351665,249946.7978,Newington and Dalkeith Road - 03
+326792.0098,672696.803,S01008602,7.47,586,5,98,"Inch Park,Craigmillar Castle Park inc Hawkhill",1631.837092,34212.02284,Newington and Dalkeith Road - 04
+326551.6533,672617.939,S01008603,7.47,586,5,95,"Inch Park,Craigmillar Castle Park inc Hawkhill",1822.746662,52949.35987,Newington and Dalkeith Road - 05
+326562.6966,671875.9985,S01008604,5.8,551,5,39,"Inch Park,Craigmillar Castle Park inc Hawkhill",2351.790532,120567.1557,The Grange - 01
+326325.6753,671984,S01008605,3.66,460,4,34,"Inch Park,Craigmillar Castle Park inc Hawkhill",1808.111246,75664.16466,The Grange - 02
+326381.4131,671587.5,S01008606,0,1,1,0,,2157.93513,103557.8525,The Grange - 03
+326160.8517,671762.4665,S01008607,3.66,460,4,20,The Meadows and Bruntsfield Links,3159.307674,166339.6804,The Grange - 04
+325851.6075,671433,S01008608,2.31,381,3,7,Hermitage of Braid/Blackford Hill & Pond,2575.674085,152835.8905,The Grange - 05
+325644.7639,671125.4995,S01008609,2.31,381,3,12,Hermitage of Braid/Blackford Hill & Pond,2844.113338,202188.9518,The Grange - 06
+325675.6861,671886,S01008610,5.97,564,5,49,Hermitage of Braid/Blackford Hill & Pond,3089.378045,217452.6476,The Grange - 07
+326170.7972,672220.3995,S01008611,5.8,551,5,56,Hermitage of Braid/Blackford Hill & Pond,1976.470005,89066.99983,Marchmont East and Sciennes - 01
+326091.2359,672463,S01008612,5.8,551,5,68,Hermitage of Braid/Blackford Hill & Pond,1065.985906,43115.17064,Marchmont East and Sciennes - 02
+325858.0644,672254.5,S01008613,3.66,460,4,72,Hermitage of Braid/Blackford Hill & Pond,1921.348748,116666.7009,Marchmont East and Sciennes - 03
+325557.4978,672467.0005,S01008614,3.66,460,4,79,Hermitage of Braid/Blackford Hill & Pond,916.3051685,34327.41046,Marchmont East and Sciennes - 04
+325677.4254,672252.5,S01008615,3.66,460,4,79,Hermitage of Braid/Blackford Hill & Pond,1851.998534,56185.35305,Marchmont East and Sciennes - 05
+325530.693,672136.0985,S01008616,3.66,460,4,69,Hermitage of Braid/Blackford Hill & Pond,963.2781179,32412.50531,Marchmont East and Sciennes - 06
+325328.9903,672046,S01008617,3.66,460,4,33,Hermitage of Braid/Blackford Hill & Pond,935.8710925,35777.95883,Marchmont West - 01
+325386.5738,672148.9235,S01008618,3.66,460,4,47,Hermitage of Braid/Blackford Hill & Pond,814.9196552,27307.2835,Marchmont West - 02
+325262.029,672223.325,S01008619,3.66,460,4,44,Hermitage of Braid/Blackford Hill & Pond,740.1963384,22274.69363,Marchmont West - 03
+325400.9578,672305.777,S01008620,3.66,460,4,56,Hermitage of Braid/Blackford Hill & Pond,840.0009958,28806.05843,Marchmont West - 04
+325243.7805,672384.381,S01008621,3.66,460,4,72,Hermitage of Braid/Blackford Hill & Pond,1037.718868,24968.01234,Marchmont West - 05
+325087.5618,672355.518,S01008622,3.66,460,4,45,Hermitage of Braid/Blackford Hill & Pond,753.7856129,18128.69936,Marchmont West - 06
+325071.0169,672080.646,S01008623,3.66,460,4,44,Hermitage of Braid/Blackford Hill & Pond,2405.648789,149907.5601,Marchmont West - 07
+325362.6339,671440.499,S01008624,5.97,564,5,29,Hermitage of Braid/Blackford Hill & Pond,4422.934011,444288.8333,Morningside - 01
+325088.7407,670726.5,S01008625,2.31,381,3,16,"Hermitage of Braid/Blackford Hill & Pond,Braidburn Valley Park",2697.502752,243698.1153,Morningside - 02
+324666.4686,670513.0005,S01008626,5.09,532,5,12,"Hermitage of Braid/Blackford Hill & Pond,Braidburn Valley Park",2203.334056,146350.0869,Morningside - 03
+324698.4615,670840,S01008627,2.31,381,3,12,"Hermitage of Braid/Blackford Hill & Pond,Braidburn Valley Park",2324.656214,173225.163,Morningside - 04
+324861.2199,671300,S01008628,2.31,381,3,3,Hermitage of Braid/Blackford Hill & Pond,2666.038689,116404.4977,Morningside - 05
+324716.136,671421.5,S01008629,0,1,1,0,,1475.765507,52591.43669,Morningside - 06
+324521.2677,671306,S01008630,0,1,1,0,,1378.844912,50690.89373,Morningside - 07
+324506.4596,671148.5,S01008631,0,1,1,2,Hermitage of Braid/Blackford Hill & Pond,1153.55814,41594.37911,Morningside - 08
+324038.9225,671150,S01008632,1.99,301,2,5,"Easter Craiglockhart Hill,Hermitage of Braid/Blackford Hill & Pond",3140.240203,260048.3042,Merchiston and Greenhill - 01
+324081.64,671530.494,S01008633,1.99,301,2,3,Easter Craiglockhart Hill,4886.523972,419462.1155,Merchiston and Greenhill - 02
+324094.5286,672007.6635,S01008634,3.66,460,4,4,The Meadows and Bruntsfield Links,2247.155912,120212.9325,Merchiston and Greenhill - 03
+324296.8792,671855,S01008635,3.66,460,4,22,The Meadows and Bruntsfield Links,3126.082507,139942.5548,Merchiston and Greenhill - 04
+324387.2171,671634.4875,S01008636,3.66,460,4,4,The Meadows and Bruntsfield Links,3194.907231,132544.157,Merchiston and Greenhill - 05
+324810.3961,672005,S01008637,3.66,460,4,33,The Meadows and Bruntsfield Links,3756.762823,196899.0376,Merchiston and Greenhill - 06
+324720.443,672593.9095,S01008638,3.66,460,4,33,The Meadows and Bruntsfield Links,1599.567798,59109.54337,Bruntsfield - 01
+324518.2904,672484.5,S01008639,3.66,460,4,31,The Meadows and Bruntsfield Links,1882.238615,71779.68537,Bruntsfield - 02
+324605.0203,672359.5,S01008640,3.66,460,4,29,The Meadows and Bruntsfield Links,1278.149292,47797.48348,Bruntsfield - 03
+324548.8734,672129.9995,S01008641,3.66,460,4,19,The Meadows and Bruntsfield Links,1064.817877,31697.88346,Bruntsfield - 04
+324406.1112,672174.7315,S01008642,3.66,460,4,12,The Meadows and Bruntsfield Links,2233.684914,87137.59003,Bruntsfield - 05
+324388.6514,672361.5,S01008643,3.66,460,4,10,The Meadows and Bruntsfield Links,923.7563114,38973.2767,Bruntsfield - 06
+324080.5731,672417.74,S01008644,3.66,460,4,2,The Meadows and Bruntsfield Links,1952.311897,42971.42718,Bruntsfield - 07
+323939.2165,672262.9925,S01008645,0,1,1,0,,1239.30695,26891.59444,Polwarth - 01
+323794.612,672152.5,S01008646,0,1,1,0,,1601.412205,51880.84928,Polwarth - 02
+323555.4405,672286.2035,S01008647,0,1,1,0,,1108.379589,35721.96447,Polwarth - 03
+323653.753,672484.497,S01008648,0,1,1,0,,1749.754916,52385.90951,Polwarth - 04
+323759.5182,672371.56,S01008649,0,1,1,0,,1270.704408,36158.88711,Polwarth - 05
+323939.0867,672394.1025,S01008650,0,1,1,0,,1298.334243,22670.08183,Polwarth - 06
+324255.8426,672738,S01008651,3.66,460,4,21,The Meadows and Bruntsfield Links,3153.946787,167184.1973,Dalry and Fountainbridge - 01
+323920.1127,672620.9995,S01008652,0,1,1,0,,1483.427475,38236.87369,Dalry and Fountainbridge - 02
+323763.4454,672740.8625,S01008653,0,1,1,0,,1671.497967,76550.12201,Dalry and Fountainbridge - 03
+323931.1501,672834.9965,S01008654,0,1,1,0,,1220.370455,34169.25672,Dalry and Fountainbridge - 04
+323883.2769,673076.379,S01008655,0,1,1,0,,2347.977655,80919.51338,Dalry and Fountainbridge - 05
+324090.4439,672910.5,S01008656,0,1,1,0,,946.7245807,21736.93765,Dalry and Fountainbridge - 06
+324199.2109,673006.2265,S01008657,0,1,1,0,,1489.682101,48128.66742,Dalry and Fountainbridge - 07
+324400.2917,673009.719,S01008658,6.84,569,5,21,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",1366.277368,65701.58131,Dalry and Fountainbridge - 08
+324724.9209,673133.1485,S01008659,6.84,569,5,45,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",2681.420918,113086.9829,Tollcross - 01
+324674.2646,673432.0405,S01008660,6.84,569,5,43,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",3151.971832,239545.096,Tollcross - 02
+325185.8576,673207.5,S01008661,6.84,569,5,72,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",2268.486407,81307.31379,Tollcross - 03
+324927.7649,673122.6575,S01008662,6.84,569,5,60,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",1244.448125,29640.28285,Tollcross - 04
+324964.9791,672981.5,S01008663,6.84,569,5,67,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",1762.035582,50560.59918,Tollcross - 05
+324923.0628,672751.1525,S01008664,3.66,460,4,46,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",1266.083446,27725.81216,Tollcross - 06
+324768.0297,672815.5,S01008665,6.84,569,5,49,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",2060.811244,91172.67979,Tollcross - 07
+325122.1168,672596.19,S01008666,3.66,460,4,75,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",2172.49572,139699.533,Meadows and Southside - 01
+325444.1448,672782.5,S01008667,8.98,591,5,105,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",3633.562528,323484.9909,Meadows and Southside - 02
+326399.8758,672321,S01008668,5.8,551,5,54,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",930.3154499,24414.04542,Meadows and Southside - 03
+326432.4715,672471.248,S01008669,5.8,551,5,71,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",821.2051036,24366.76827,Meadows and Southside - 04
+326324.0768,672577,S01008670,5.8,551,5,94,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",1163.451521,52318.37302,Meadows and Southside - 05
+326259.3746,672753.5,S01008671,5.8,551,5,88,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",987.9742523,27465.02435,Meadows and Southside - 06
+326285.3635,672879.699,S01008672,5.8,551,5,87,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",847.9686133,31476.53001,Meadows and Southside - 07
+325696.556,672961.9195,S01008673,8.98,591,5,122,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",3287.696995,295986.5753,Meadows and Southside - 08
+325559.9825,673379.5265,S01008674,6.84,569,5,72,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",2215.069578,97716.77188,"Old Town, Princes Street and Leith Street - 01"
+325214.9871,673458.8165,S01008675,6.84,569,5,50,"The Meadows and Bruntsfield Links,Princes Street Gardens East & West",3210.63784,200589.1968,"Old Town, Princes Street and Leith Street - 02"
+325940.1462,674172,S01008676,5.32,538,5,19,"Princes Street Gardens East & West,Holyrood Park",4133.369517,294763.1553,"Old Town, Princes Street and Leith Street - 03"
+325397.0204,673883,S01008677,5.32,538,5,39,"Princes Street Gardens East & West,Holyrood Park",5369.61066,438908.5248,"Old Town, Princes Street and Leith Street - 04"
+325835.3004,673393.8255,S01008678,8.98,591,5,80,"Princes Street Gardens East & West,Holyrood Park",2320.590556,117001.4719,"Old Town, Princes Street and Leith Street - 05"
+326096.7012,673514.596,S01008679,8.98,591,5,51,"Princes Street Gardens East & West,Holyrood Park",1729.056641,102133.0387,"Old Town, Princes Street and Leith Street - 06"
+326061.6011,673118,S01008680,5.8,551,5,70,"Princes Street Gardens East & West,Holyrood Park",1473.321749,51285.74862,"Canongate, Southside and Dumbiedykes - 01"
+326270.7435,673116.5525,S01008681,5.8,551,5,71,"Princes Street Gardens East & West,Holyrood Park",1474.390899,59491.07823,"Canongate, Southside and Dumbiedykes - 02"
+326437.4261,673009.5,S01008682,7.47,586,5,112,"Princes Street Gardens East & West,Holyrood Park",1969.534071,80402.84811,"Canongate, Southside and Dumbiedykes - 03"
+326246.8549,673327.43,S01008683,5.8,551,5,79,"Princes Street Gardens East & West,Holyrood Park",2305.218044,90258.48817,"Canongate, Southside and Dumbiedykes - 04"
+327443.0389,673196.5,S01008684,9.15,595,5,196,"Princes Street Gardens East & West,Holyrood Park",7893.077321,2360279.287,"Canongate, Southside and Dumbiedykes - 05"
+326478.6954,673792.9995,S01008685,2.14,306,2,51,Holyrood Park,2976.316012,171214.9902,"Canongate, Southside and Dumbiedykes - 06"
+327477.8474,674057.5,S01008686,2.14,306,2,82,Holyrood Park,4628.968846,369869.8592,Abbeyhill - 01
+327124.4633,674132.903,S01008687,2.14,306,2,43,Holyrood Park,700.036551,27323.17672,Abbeyhill - 02
+327350.41,674209.06,S01008688,2.14,306,2,56,Holyrood Park,1354.440192,64447.78797,Abbeyhill - 03
+327016.191,674584.84,S01008689,2.14,306,2,14,Holyrood Park,1201.068862,40274.76952,Meadowbank and Abbeyhill North - 01
+327292.8774,674562.5,S01008690,2.14,306,2,32,Holyrood Park,1787.290087,120314.7892,Meadowbank and Abbeyhill North - 02
+327865.2622,674320.5,S01008691,2.14,306,2,59,Holyrood Park,2505.100539,211060.0962,Meadowbank and Abbeyhill North - 03
+327616.5251,674738.8425,S01008692,2.14,306,2,13,Holyrood Park,2156.391109,175657.5552,Meadowbank and Abbeyhill North - 04
+328155.2465,674513.5,S01008693,2.14,306,2,15,Holyrood Park,1651.186032,92133.50836,Meadowbank and Abbeyhill North - 05
+328039.9517,674060.5,S01008694,3.82,492,4,62,"Holyrood Park,Meadowfield Park",1378.966225,45906.74174,Willowbrae and Duddingston Village - 01
+328315.7265,674121.333,S01008695,3.82,492,4,56,"Holyrood Park,Meadowfield Park",2017.247721,68705.89727,Willowbrae and Duddingston Village - 02
+328270.9277,673932.785,S01008696,3.82,492,4,53,"Holyrood Park,Meadowfield Park",1255.104143,52763.8185,Willowbrae and Duddingston Village - 03
+328468.846,673413.5,S01008697,3.82,492,4,64,"Holyrood Park,Meadowfield Park",4070.156565,413597.3407,Willowbrae and Duddingston Village - 04
+328955.4963,673330.5,S01008698,6.02,566,5,32,"Holyrood Park,Meadowfield Park,Figgate Burn Park",2691.257918,118049.6983,Willowbrae and Duddingston Village - 05
+328825.303,673071,S01008699,5.49,540,5,19,"Holyrood Park,Meadowfield Park",2000.148835,104951.6837,Willowbrae and Duddingston Village - 06
+328865.718,672578.4995,S01008700,9.57,597,5,77,"Holyrood Park,Meadowfield Park",5774.470125,1278636.325,Willowbrae and Duddingston Village - 07
+329218.6531,671879.679,S01008701,5.75,549,5,57,"Craigmillar Castle Park inc Hawkhill,Jewel Park,Hunters Hall Park (JKC)",3190.684261,355287.0682,Craigmillar - 01
+328558.9683,671876.162,S01008702,5.75,549,5,21,"Craigmillar Castle Park inc Hawkhill,Jewel Park",3178.42059,253821.4454,Craigmillar - 02
+328624.0798,671455.7755,S01008703,4.53,513,4,18,Craigmillar Castle Park inc Hawkhill,1358.319294,97936.00192,Craigmillar - 03
+329716.9016,670332.5,S01008704,9.53,596,5,105,Craigmillar Castle Park inc Hawkhill,19832.74422,4078015.316,Craigmillar - 04
+329124.6657,671551.7705,S01008705,4.53,513,4,16,Craigmillar Castle Park inc Hawkhill,1514.408891,91880.11044,Craigmillar - 05
+329806.104,671826,S01008706,2.7,416,3,69,Craigmillar Castle Park inc Hawkhill,1710.265454,93428.79179,Niddrie - 01
+329984.8308,671486.2485,S01008707,5.56,541,5,47,"Craigmillar Castle Park inc Hawkhill,Jewel Park,Hunters Hall Park (JKC)",2594.715737,96681.52721,Niddrie - 02
+329931.5897,671227.585,S01008708,2.7,416,3,28,"Hunters Hall Park (JKC),Jewel Park",3097.838782,188739.5646,Niddrie - 03
+330045.2769,671575.182,S01008709,2.7,416,3,63,"Hunters Hall Park (JKC),Jewel Park",1825.112189,93160.74945,Niddrie - 04
+330021.9349,671930.941,S01008710,2.7,416,3,70,"Hunters Hall Park (JKC),Jewel Park",1160.642612,75125.69297,Niddrie - 05
+330309.4891,671803,S01008711,2.7,416,3,70,"Hunters Hall Park (JKC),Jewel Park",1983.1799,185328.1794,Niddrie - 06
+330115.2261,672341.5,S01008712,2.7,416,3,65,"Hunters Hall Park (JKC),Jewel Park",3510.027236,328087.9215,"Bingham, Magdalene and The Christians - 01"
+330655.0594,672587.0005,S01008713,1.22,248,2,40,Jewel Park,1446.115674,69410.98711,"Bingham, Magdalene and The Christians - 02"
+330604.1584,672721.032,S01008714,1.22,248,2,43,"Jewel Park,Figgate Burn Park",1941.693366,103943.1074,"Bingham, Magdalene and The Christians - 03"
+331070.7447,672661.6025,S01008715,1.22,248,2,11,Jewel Park,2772.563006,264941.7124,"Bingham, Magdalene and The Christians - 04"
+331010.0406,673081.5485,S01008716,0,1,1,0,,1267.435447,91629.10811,"Bingham, Magdalene and The Christians - 05"
+331036.4361,672308.9915,S01008717,1.22,248,2,44,"Jewel Park,Hunters Hall Park (JKC)",2209.311764,170965.8415,"Jewel, Brunstane and Newcraighall - 01"
+330595.9415,672197.642,S01008718,2.7,416,3,62,"Jewel Park,Hunters Hall Park (JKC)",2272.670364,134613.1652,"Jewel, Brunstane and Newcraighall - 02"
+330676.13,671856.9095,S01008719,2.7,416,3,67,"Jewel Park,Hunters Hall Park (JKC)",2279.724247,177608.9375,"Jewel, Brunstane and Newcraighall - 03"
+331530.2721,671628.15,S01008720,2.7,416,3,22,"Jewel Park,Hunters Hall Park (JKC)",6834.134502,1158211.297,"Jewel, Brunstane and Newcraighall - 04"
+331947.0885,672490.1975,S01008721,0,1,1,0,,4834.392547,827202.8908,"Jewel, Brunstane and Newcraighall - 05"
+332305.895,673138.3407,S01008722,0,1,1,0,,3138.938139,366574.5124,Joppa - 01
+331612.7663,672777.9035,S01008723,0,1,1,0,,1947.7159,192224.3999,Joppa - 02
+331502.2716,673139.6005,S01008724,0,1,1,0,,2379.864087,231895.7413,Joppa - 03
+331422.0961,673543.7605,S01008725,0,1,1,0,,1916.041029,121132.6667,Joppa - 04
+331103.918,673468.0245,S01008726,0,1,1,1,Figgate Burn Park,2067.503844,112362.0415,Joppa - 05
+331052.856,673744.042,S01008727,0,1,1,0,,2182.28733,157392.7128,Joppa - 06
+330688.8824,673684.1425,S01008728,2.2,357,3,6,Figgate Burn Park,1226.741832,56908.65596,Portobello - 01
+330411.2614,673815.896,S01008729,2.2,357,3,23,Figgate Burn Park,2591.986387,134917.5903,Portobello - 02
+330692.7578,674075.2,S01008730,2.2,357,3,5,Figgate Burn Park,1971.132436,93051.3963,Portobello - 03
+330482.6269,674099.4615,S01008731,2.2,357,3,5,Figgate Burn Park,1598.666089,60920.61639,Portobello - 04
+330325.8277,673982.1925,S01008732,2.2,357,3,9,Figgate Burn Park,1683.988475,54563.06204,Portobello - 05
+329960.6798,674650.65,S01008733,2.2,357,3,23,Figgate Burn Park,5773.233318,554353.9944,Portobello - 06
+330629.1506,673355.617,S01008734,3.42,455,4,31,"Figgate Burn Park,Jewel Park",5588.11598,630340.7499,Duddingston and Portobello South - 01
+330128.9815,673138,S01008735,3.42,455,4,60,"Figgate Burn Park,Jewel Park",2677.594224,223485.0148,Duddingston and Portobello South - 02
+330004.2747,672547.5,S01008736,3.42,455,4,50,"Jewel Park,Figgate Burn Park",2822.51542,227953.3446,Duddingston and Portobello South - 03
+329334.3811,673105.3775,S01008737,3.42,455,4,52,"Jewel Park,Meadowfield Park,Figgate Burn Park",3154.927733,213063.2281,Duddingston and Portobello South - 04
+329787.2571,673223.401,S01008738,2.2,357,3,23,Figgate Burn Park,3064.982157,180435.9811,Duddingston and Portobello South - 05
+329519.4606,673572.5,S01008739,2.2,357,3,23,Figgate Burn Park,1390.341473,70027.72809,Mountcastle - 01
+329705.2796,673854.4995,S01008740,2.2,357,3,23,Figgate Burn Park,2358.552146,156151.501,Mountcastle - 02
+329281.0229,673880.203,S01008741,2.2,357,3,22,Figgate Burn Park,2415.752746,133442.8662,Mountcastle - 03
+328906.4125,674061.5,S01008742,4.34,512,4,22,"Holyrood Park,Figgate Burn Park",2896.376558,193044.0331,Mountcastle - 04
+329198.3246,673311.5,S01008743,3.88,498,4,28,"Meadowfield Park,Holyrood Park,Figgate Burn Park",1795.663253,122614.441,Northfield and Piershill - 01
+329027.3239,673594,S01008744,6.02,566,5,42,"Holyrood Park,Meadowfield Park,Figgate Burn Park",2069.855824,152735.8489,Northfield and Piershill - 02
+328613.4491,673988.4065,S01008745,3.82,492,4,28,"Holyrood Park,Meadowfield Park",1474.149009,62400.48501,Northfield and Piershill - 03
+328566.3462,674283.757,S01008746,3.82,492,4,32,"Holyrood Park,Meadowfield Park",2103.61865,99666.80295,Northfield and Piershill - 04
+329652.7145,674198.3905,S01008747,2.2,357,3,8,Figgate Burn Park,1847.213138,183722.9736,Craigentinny - 01
+329470.5914,674539.5,S01008748,0,1,1,0,,1804.879477,148256.0415,Craigentinny - 02
+329092.6558,674959,S01008749,2.2,357,3,3,Figgate Burn Park,5324.379428,695594.5666,Craigentinny - 03
+329137.4221,674493.5005,S01008750,0,1,1,0,,2090.703398,158624.3797,Craigentinny - 04
+328845.96,674475.5145,S01008751,2.14,306,2,12,Holyrood Park,2079.790505,107731.0377,Restalrig (Loganlea) and Craigentinny West - 01
+328782.0265,674644.693,S01008752,0,1,1,0,,1924.195787,107776.2024,Restalrig (Loganlea) and Craigentinny West - 02
+328622.3075,674876.2985,S01008753,0,1,1,0,,1116.447147,54496.65484,Restalrig (Loganlea) and Craigentinny West - 03
+328436.5001,674814.1895,S01008754,0,1,1,0,,1617.253506,61586.93929,Restalrig (Loganlea) and Craigentinny West - 04
+328414.131,674610.103,S01008755,2.14,306,2,12,Holyrood Park,1754.526485,75490.19552,Restalrig (Loganlea) and Craigentinny West - 05
+328140.0841,674785.0075,S01008756,0,1,1,0,,1672.491877,92106.10582,Restalrig and Lochend - 01
+327888.171,674811.908,S01008757,0,1,1,0,,1320.048641,72866.44625,Restalrig and Lochend - 02
+328361.3448,675095.219,S01008758,2.15,322,2,2,Leith Links,2364.586133,124516.9905,Restalrig and Lochend - 03
+328296.2585,675271,S01008759,2.15,322,2,2,Leith Links,1444.254789,95166.23757,Restalrig and Lochend - 04
+327970.4842,675234.3975,S01008760,2.15,322,2,22,Leith Links,1414.765325,84290.6108,Restalrig and Lochend - 05
+327723.7514,675207.996,S01008761,2.15,322,2,12,Leith Links,1408.671866,61330.52626,Restalrig and Lochend - 06
+327683.6797,675304,S01008762,2.15,322,2,35,Leith Links,1702.606666,62059.57222,Leith (Hermitage and Prospect Bank) - 01
+327582.1805,675430.5,S01008763,2.15,322,2,40,Leith Links,1379.706733,57988.91147,Leith (Hermitage and Prospect Bank) - 02
+327471.9816,675543,S01008764,2.15,322,2,40,Leith Links,1643.156314,60709.89245,Leith (Hermitage and Prospect Bank) - 03
+327723.3592,675685.3095,S01008765,2.15,322,2,40,Leith Links,1389.737958,55499.38792,Leith (Hermitage and Prospect Bank) - 04
+328006.7263,675614,S01008766,2.15,322,2,40,Leith Links,2290.730188,155550.7238,Leith (Hermitage and Prospect Bank) - 05
+328276.6265,675647.6385,S01008767,2.15,322,2,9,Leith Links,1253.33713,59004.41468,Leith (Hermitage and Prospect Bank) - 06
+327637.3904,676784.468,S01008768,2.15,322,2,40,Leith Links,11733.81519,2208029.881,Western Harbour and Leith Docks - 01
+326459.1729,677240.1872,S01008769,2.15,322,2,4,Leith Links,4335.310079,546047.3249,Western Harbour and Leith Docks - 02
+326082.8386,677534.3995,S01008770,0,1,1,0,,2978.80285,367705.7598,Western Harbour and Leith Docks - 03
+325626.3826,677305.591,S01008771,0,1,1,0,,1820.841591,136482.4198,Western Harbour and Leith Docks - 04
+325575.5535,676892.5395,S01008772,0,1,1,0,,1639.948956,79510.97175,North Leith and Newhaven - 01
+325789.9975,676988.49,S01008773,0,1,1,0,,3216.631967,111966.3515,North Leith and Newhaven - 02
+326131.7316,676730.1875,S01008774,0,1,1,0,,1936.679267,101455.6074,North Leith and Newhaven - 03
+326242.6064,676526.9995,S01008775,0,1,1,0,,1878.954387,57817.93076,North Leith and Newhaven - 04
+326406.4197,676564,S01008776,0,1,1,0,,1139.982991,54294.30503,North Leith and Newhaven - 05
+326658.3922,676614.9835,S01008777,2.15,322,2,4,Leith Links,1802.502206,74143.52427,North Leith and Newhaven - 06
+326942.6621,676589.707,S01008778,2.15,322,2,33,Leith Links,2468.369322,127572.7681,The Shore and Constitution Street - 01
+327249.0382,676673.2515,S01008779,2.15,322,2,31,Leith Links,1177.328527,56114.38882,The Shore and Constitution Street - 02
+327342.5273,676474.7105,S01008780,2.15,322,2,40,Leith Links,1905.418679,52763.69684,The Shore and Constitution Street - 03
+327546.5671,676381.051,S01008781,2.15,322,2,40,Leith Links,1424.517674,72332.71021,The Shore and Constitution Street - 04
+327256.828,676190.5,S01008782,2.15,322,2,40,Leith Links,1589.782318,66439.23425,The Shore and Constitution Street - 05
+327175.8708,676324.9995,S01008783,2.15,322,2,40,Leith Links,850.1791807,20878.50013,The Shore and Constitution Street - 06
+327186.4873,676413.5,S01008784,2.15,322,2,36,Leith Links,1104.361558,23898.04376,The Shore and Constitution Street - 07
+327077.6979,676159,S01008785,2.15,322,2,40,Leith Links,1678.105788,71248.84954,Great Junction Street - 01
+326865.7744,676147.4595,S01008786,2.15,322,2,39,Leith Links,1689.865741,56739.08765,Great Junction Street - 02
+326828.7872,676273.454,S01008787,2.15,322,2,27,Leith Links,561.48147,9367.268497,Great Junction Street - 03
+326715.8161,676295.5,S01008788,2.15,322,2,31,Leith Links,1390.516258,48256.32795,Great Junction Street - 04
+326469.992,676207.418,S01008789,2.15,322,2,19,Leith Links,2120.17963,121483.262,Great Junction Street - 05
+326779.9786,675941.5,S01008790,2.15,322,2,38,Leith Links,1647.909291,55136.10967,Great Junction Street - 06
+326708.5635,675741.4925,S01008791,2.15,322,2,32,Leith Links,1890.833782,100801.9841,Great Junction Street - 07
+327336.5805,675923.212,S01008792,2.15,322,2,40,Leith Links,2443.645803,219575.2496,South Leith - 01
+327030.9903,675778.5,S01008793,2.15,322,2,40,Leith Links,1207.785168,43831.72744,South Leith - 02
+327240.9853,675435.5,S01008794,2.15,322,2,40,Leith Links,2121.960255,123059.0077,South Leith - 03
+327035.0602,675381.008,S01008795,2.15,322,2,38,Leith Links,1247.304704,45488.02493,South Leith - 04
+326922.2499,675570,S01008796,2.15,322,2,39,Leith Links,1298.77075,70675.16547,South Leith - 05
+326825.6663,675356.5,S01008797,2.15,322,2,15,Leith Links,972.162126,40436.27696,South Leith - 06
+326969.8459,675176.5,S01008798,2.15,322,2,19,Leith Links,2242.307405,86855.99136,Easter Road and Hawkhill Avenue - 01
+327430.6947,674984.555,S01008799,0,1,1,0,,1273.9966,72589.42784,Easter Road and Hawkhill Avenue - 02
+327173.3898,674947.253,S01008800,0,1,1,0,,2028.825885,102685.3298,Easter Road and Hawkhill Avenue - 03
+327027.3081,674850.6275,S01008801,2.14,306,2,3,Holyrood Park,1266.969107,46843.68363,Easter Road and Hawkhill Avenue - 04
+326893.0745,675007,S01008802,0,1,1,0,,948.7205179,41372.71405,Leith (Albert Street) - 01
+326689.7933,675149.769,S01008803,0,1,1,0,,1239.485812,46247.62872,Leith (Albert Street) - 02
+326591.639,675015.329,S01008804,0,1,1,0,,1250.903842,33406.33352,Leith (Albert Street) - 03
+326479.7436,674977.3075,S01008805,0,1,1,0,,1272.980426,30864.25312,Leith (Albert Street) - 04
+326606.9792,674781.347,S01008806,0,1,1,0,,1711.652482,66462.55219,Hillside and Calton Hill - 01
+326998.1155,674695,S01008807,2.14,306,2,10,Holyrood Park,1550.889007,42509.95878,Hillside and Calton Hill - 02
+326784.6353,674606.958,S01008808,2.14,306,2,14,Holyrood Park,1410.471949,56184.06236,Hillside and Calton Hill - 03
+326561.6458,674315.6715,S01008809,2.14,306,2,36,"Princes Street Gardens East & West,Holyrood Park",3583.523791,343498.887,Hillside and Calton Hill - 04
+326589.8985,674594.1285,S01008810,2.14,306,2,2,Holyrood Park,901.9867459,31635.7343,Hillside and Calton Hill - 05
+326312.5645,674639.5,S01008811,0,1,1,0,,956.3882879,50925.3,Hillside and Calton Hill - 06
+326359.4354,674796.9505,S01008812,0,1,1,0,,964.8930483,23311.14787,Hillside and Calton Hill - 07
+326243.7164,675267.4835,S01008813,0,1,1,0,,1718.420599,67236.71981,Pilrig - 01
+326554.2957,675319,S01008814,0,1,1,0,,1184.868904,59923.84707,Pilrig - 02
+326432.3496,675498,S01008815,2.15,322,2,2,Leith Links,1748.708146,64344.56083,Pilrig - 03
+326467.578,675828.776,S01008816,0,1,1,0,,2261.629478,110125.6018,Pilrig - 04
+326105.4321,676028.9355,S01008817,0,1,1,0,,2350.306591,136510.5466,Bonnington - 01
+326018.49,675890.0935,S01008818,0,1,1,0,,2656.011154,119797.342,Bonnington - 02
+325702.57,676156.345,S01008819,0,1,1,0,,1573.419485,84752.88983,Bonnington - 03
+326166.567,676307.7635,S01008820,0,1,1,0,,1716.483832,67112.32816,Bonnington - 04
+325959.1074,676472.311,S01008821,0,1,1,0,,1281.495056,57461.33946,Trinity East and The Dudleys - 01
+325778.2635,676640,S01008822,0,1,1,0,,1917.409918,106341.0619,Trinity East and The Dudleys - 02
+325506.9407,676327.7635,S01008823,0,1,1,4,Royal Botanic Gardens,3070.797573,229381.8385,Trinity East and The Dudleys - 03
+325351.9495,676587.5,S01008824,0,1,1,0,,2618.941806,126952.5517,Trinity East and The Dudleys - 04
+325243.0824,676855.5,S01008825,0,1,1,0,,1971.215605,91516.23496,Trinity East and The Dudleys - 05
+325045.2274,676796.264,S01008826,0,1,1,0,,3086.163562,100548.3381,Trinity - 01
+324594.7038,676663.694,S01008827,0,1,1,2,Royal Botanic Gardens,2735.872211,175138.634,Trinity - 02
+324354.9856,676664.9995,S01008828,0,1,1,4,Royal Botanic Gardens,3265.687394,242105.9947,Trinity - 03
+324271.9294,676127,S01008829,1.51,263,2,11,"Inverleith Park,Royal Botanic Gardens",1943.551335,140914.5915,Trinity - 04
+324646.058,676219.5,S01008830,1.51,263,2,7,Royal Botanic Gardens,2145.160169,120058.9941,Trinity - 05
+324902.1084,676413.4995,S01008831,0,1,1,4,Royal Botanic Gardens,2507.950431,165300.3173,Trinity - 06
+324082.2281,675466.7285,S01008832,4.03,499,4,89,Royal Botanic Gardens,6570.369469,785567.0851,"Inverleith, Goldenacre and Warriston - 01"
+324630.7586,675751.5,S01008833,4.03,499,4,83,Royal Botanic Gardens,2530.426467,150796.2839,"Inverleith, Goldenacre and Warriston - 02"
+324814.555,675412.7285,S01008834,4.03,499,4,89,Royal Botanic Gardens,3594.674991,471612.3833,"Inverleith, Goldenacre and Warriston - 03"
+325288.5977,675806.395,S01008835,1.51,263,2,7,Royal Botanic Gardens,3724.462776,368458.7254,"Inverleith, Goldenacre and Warriston - 04"
+325808.7532,675547.594,S01008836,0,1,1,0,,2913.403703,185081.9123,Broughton North and Powderhall - 01
+325680.5004,675379.129,S01008837,0,1,1,0,,2135.516116,89799.08098,Broughton North and Powderhall - 02
+325344.667,675264.5675,S01008838,4.03,499,4,56,"Inverleith Park,Royal Botanic Gardens",2939.390718,169458.8385,Broughton North and Powderhall - 03
+325627.6693,675090.5115,S01008839,0,1,1,0,,1442.597075,76532.59252,Broughton North and Powderhall - 04
+325844.1926,675059.1875,S01008840,0,1,1,0,,1255.052249,65867.43214,Broughton South - 01
+326027.752,675274.864,S01008841,0,1,1,0,,1785.354663,83173.10708,Broughton South - 02
+326125.2814,675530.9925,S01008842,0,1,1,0,,1286.839443,95024.35953,Broughton South - 03
+326334.742,675022.7485,S01008843,0,1,1,0,,2250.994189,92967.47257,Broughton South - 04
+326135.3939,675059.7095,S01008844,0,1,1,0,,1095.124269,35080.01963,Broughton South - 05
+326126.2175,674716.8595,S01008845,0,1,1,0,,2215.346292,114064.0536,New Town East and Gayfield - 01
+325863.6488,674716.5,S01008846,0,1,1,0,,1820.861506,87989.3263,New Town East and Gayfield - 02
+325769.6695,674597.5,S01008847,3.18,447,4,3,Princes Street Gardens East & West,1904.921781,49259.01287,New Town East and Gayfield - 03
+325623.2715,674556.2485,S01008848,3.18,447,4,4,Princes Street Gardens East & West,1419.271668,51653.05687,New Town East and Gayfield - 04
+325399.5269,674282,S01008849,3.18,447,4,25,Princes Street Gardens East & West,3294.418369,202455.4762,New Town West - 01
+325088.0259,674426.5,S01008850,3.18,447,4,22,"Princes Street Gardens East & West,Inverleith Park",1430.709523,71918.61536,New Town West - 02
+324841.5143,674438,S01008851,5.7,542,5,60,"Princes Street Gardens East & West,Inverleith Park",1695.379285,79065.78465,New Town West - 03
+324645.1479,674094.5,S01008852,5.7,542,5,37,"Princes Street Gardens East & West,Inverleith Park",2676.900064,157260.1923,New Town West - 04
+325503.7775,674763.5,S01008853,0,1,1,0,,1551.182174,57831.40009,Canonmills and New Town North - 01
+325286.919,674590.4995,S01008854,3.18,447,4,4,Princes Street Gardens East & West,1467.153698,51281.39029,Canonmills and New Town North - 02
+325168.2201,674733.6295,S01008855,5.7,542,5,31,"Inverleith Park,Princes Street Gardens East & West",2725.029525,121593.9331,Canonmills and New Town North - 03
+325254.0822,674966.5,S01008856,2.52,400,3,27,"Inverleith Park,Royal Botanic Gardens",1030.887996,33992.8673,Canonmills and New Town North - 04
+324853.4422,674914.5,S01008857,4.03,499,4,72,"Inverleith Park,Royal Botanic Gardens",1770.255539,108681.8459,Stockbridge - 01
+324619.8449,674828.484,S01008858,4.03,499,4,83,"Inverleith Park,Royal Botanic Gardens",1568.10937,64694.30759,Stockbridge - 02
+324781.7924,674654,S01008859,7.21,578,5,61,"Inverleith Park,Royal Botanic Gardens",1769.719394,69399.27719,Stockbridge - 03
+324573.0034,674488.9665,S01008860,7.21,578,5,79,"Inverleith Park,Royal Botanic Gardens",1720.138219,72255.84857,Stockbridge - 04
+324437.4311,674234.5,S01008861,5.7,542,5,76,"Inverleith Park,Royal Botanic Gardens",2652.373822,122700.2878,Stockbridge - 05
+324326.1059,674522.799,S01008862,4.03,499,4,79,"Inverleith Park,Royal Botanic Gardens",1839.052951,56988.41244,Stockbridge - 06
+324213.3282,674753.5,S01008863,4.03,499,4,83,"Inverleith Park,Royal Botanic Gardens",1937.008359,125064.2447,Stockbridge - 07
+323564.5579,675036.5,S01008864,4.03,499,4,82,"Inverleith Park,Royal Botanic Gardens",4359.801618,473534.2119,Comely Bank - 01
+323791.4421,674444.5,S01008865,2.52,400,3,30,Inverleith Park,1693.658698,90529.14966,Comely Bank - 02
+324070.0092,674553.5,S01008866,2.52,400,3,75,Inverleith Park,1682.445862,50749.03011,Comely Bank - 03
+324039.7145,674246,S01008867,2.52,400,3,26,Inverleith Park,2378.034612,110327.18,Comely Bank - 04
+324726.4477,673766.138,S01008868,3.18,447,4,25,Princes Street Gardens East & West,3582.618053,284073.6278,Deans Village - 01
+324203.6065,673897.5,S01008869,5.7,542,5,21,"Princes Street Gardens East & West,Inverleith Park",2866.729721,176198.7493,Deans Village - 02
+323636.431,673954.5445,S01008870,0,1,1,0,,2722.391143,233796.6209,Deans Village - 03
+323931.1863,673516.6185,S01008871,3.18,447,4,14,Princes Street Gardens East & West,2504.376408,151617.3626,Deans Village - 04
+323883.3696,673269,S01008872,0,1,1,0,,2277.353262,122827.5755,Deans Village - 05
+323340.5354,673470,S01008873,0,1,1,0,,2987.507525,390906.0973,Deans Village - 06
+323330.3211,673012.431,S01008874,0,1,1,0,,1967.913451,134473.4256,Deans Village - 07
+322885.2493,672949.5,S01008875,0,1,1,2,Saughton Park,2223.560555,126794.8575,Balgreen and Roseburn - 01
+322370.8051,672879.5,S01008876,5.06,525,5,16,"Corstorphine Hill,Saughton Park",3348.104764,361968.1904,Balgreen and Roseburn - 02
+321994.3637,672920.5,S01008877,5.06,525,5,22,"Corstorphine Hill,Saughton Park",1574.652213,68028.74197,Balgreen and Roseburn - 03
+322123.0481,672757.5,S01008878,5.06,525,5,51,"Corstorphine Hill,Saughton Park",3048.665252,195667.4917,Balgreen and Roseburn - 04
+321392.5329,672424,S01008879,5.06,525,5,51,"Corstorphine Hill,Saughton Park",3678.150618,563898.2288,Balgreen and Roseburn - 05
+321433.6766,672867,S01008880,5.06,525,5,5,"Corstorphine Hill,Saughton Park",1721.145054,114277.5221,Balgreen and Roseburn - 06
+321897.1034,673253.5005,S01008881,2.31,381,3,3,Corstorphine Hill,3978.27902,397725.5531,Murrayfield and Ravelston - 01
+322485.424,673398.1715,S01008882,0,1,1,0,,2429.014548,214434.3064,Murrayfield and Ravelston - 02
+322582.9611,673648.8055,S01008883,0,1,1,0,,3361.651137,354593.21,Murrayfield and Ravelston - 03
+322438.6525,674133,S01008884,0,1,1,0,,3180.020889,243128.778,Murrayfield and Ravelston - 04
+322981.4221,674055.5,S01008885,0,1,1,0,,3251.831038,298237.0891,Murrayfield and Ravelston - 05
+323524.4881,674174,S01008886,0,1,1,0,,3112.933409,167598.1834,"Craigleith, Orchard Brae and Crewe Toll - 01"
+323282.3069,674592,S01008887,2.52,400,3,35,Inverleith Park,4129.124429,311556.976,"Craigleith, Orchard Brae and Crewe Toll - 02"
+323364.7186,675563,S01008888,2.52,400,3,26,Inverleith Park,1290.789495,69189.23755,"Craigleith, Orchard Brae and Crewe Toll - 03"
+323047.7269,675510.5065,S01008889,0,1,1,0,,2029.016872,134561.0357,"Craigleith, Orchard Brae and Crewe Toll - 04"
+322955.9698,675099.3695,S01008890,2.52,400,3,20,Inverleith Park,3050.370256,321825.0202,"Craigleith, Orchard Brae and Crewe Toll - 05"
+322665.9623,674634.3995,S01008891,0,1,1,0,,2630.442221,263660.1435,"Craigleith, Orchard Brae and Crewe Toll - 06"
+322151.6676,674501.567,S01008892,0,1,1,0,,4138.430644,190691.7774,Blackhall - 01
+321786.2391,674671.67,S01008893,0,1,1,0,,2581.182157,211946.7328,Blackhall - 02
+321847.8777,673955,S01008894,2.31,381,3,3,Corstorphine Hill,7990.248185,941565.6394,Blackhall - 03
+321037.578,674591,S01008895,4.67,516,4,11,"Davidsons Mains Park,Corstorphine Hill",3478.247775,220744.1374,Blackhall - 04
+320716.1049,674709,S01008896,4.67,516,4,18,"Davidsons Mains Park,Corstorphine Hill",2010.0696,126050.2397,Blackhall - 05
+320997.5526,674954,S01008897,7.33,580,5,21,"Davidsons Mains Park,Corstorphine Hill,Lauriston Castle",3429.627696,182773.5754,Blackhall - 06
+321707.8915,674960,S01008898,0,1,1,0,,3389.818945,267414.8983,Blackhall - 07
+321613.3891,675346.5,S01008899,0,1,1,0,,1675.713039,127663.437,Drylaw - 01
+321965.9996,675256,S01008900,0,1,1,0,,2100.606945,181334.5958,Drylaw - 02
+322291.0911,675129.0715,S01008901,0,1,1,0,,2560.415014,144102.0412,Drylaw - 03
+322572.5433,675225.5,S01008902,0,1,1,0,,3020.118578,211512.8958,Drylaw - 04
+322350.9994,675490.901,S01008903,0,1,1,0,,2193.767849,163933.0287,Drylaw - 05
+322417.3358,675745.4445,S01008904,0,1,1,0,,2409.474182,121744.6821,West Pilton - 01
+322058.1964,676066.5,S01008905,0,1,1,0,,1925.971369,107275.1812,West Pilton - 02
+322293.7501,676054.163,S01008906,0,1,1,0,,2430.629459,121250.7837,West Pilton - 03
+322560.5694,676189,S01008907,0,1,1,0,,1843.885824,112387.6603,West Pilton - 04
+322910.3189,676052.4995,S01008908,0,1,1,0,,2544.621569,161488.4377,West Pilton - 05
+322900.9392,676354.5,S01008909,0,1,1,0,,2029.532814,97228.17484,Boswall and Pilton - 01
+323362.1357,676361.5,S01008910,0,1,1,0,,1551.57972,55377.10361,Boswall and Pilton - 02
+323306.159,675982,S01008911,2.52,400,3,4,Inverleith Park,2604.191128,227373.5193,Boswall and Pilton - 03
+323842.5455,676132.359,S01008912,1.51,263,2,2,Royal Botanic Gardens,1933.226039,104453.303,Boswall and Pilton - 04
+323584.2003,676349.405,S01008913,0,1,1,0,,1755.818139,97286.97313,Boswall and Pilton - 05
+324007.3949,676420.7395,S01008914,0,1,1,0,,3609.927809,151190.1263,Boswall and Pilton - 06
+324079.32,676693.1395,S01008915,0,1,1,0,,1902.949363,87593.06476,Boswall and Pilton - 07
+323818.0273,676823.5625,S01008916,0,1,1,0,,2043.237196,155131.3946,Granton South and Wardieburn - 01
+323446.1499,676610.9275,S01008917,0,1,1,0,,1855.933741,100427.7938,Granton South and Wardieburn - 02
+323444.7496,676809.9995,S01008918,0,1,1,0,,1061.350772,45570.35783,Granton South and Wardieburn - 03
+323418.9371,676962.883,S01008919,0,1,1,0,,1026.086926,38056.41776,Granton South and Wardieburn - 04
+323304.3245,677416.8,S01008920,1.46,262,2,3,Gypsy Brae Recreation Ground,7546.752242,542369.7304,Granton and Royston Mains - 01
+323124.5961,676893.9455,S01008921,0,1,1,0,,2707.25067,191934.6585,Granton and Royston Mains - 02
+323134.3692,676513,S01008922,0,1,1,0,,1654.370022,106040.3987,Granton and Royston Mains - 03
+322733.2662,676530.199,S01008923,0,1,1,0,,1954.759104,85219.30777,Granton and Royston Mains - 04
+322496.814,676416.812,S01008924,0,1,1,0,,2199.931442,114840.2085,Granton West and Salvesen - 01
+322190.1946,676368.4335,S01008925,0,1,1,0,,1904.3813,90293.98354,Granton West and Salvesen - 02
+322005.7131,676498.9905,S01008926,0,1,1,0,,1178.048733,66307.3119,Granton West and Salvesen - 03
+321917.5943,676666,S01008927,0,1,1,1,Gypsy Brae Recreation Ground,950.1828124,34908.01876,Granton West and Salvesen - 04
+321674.4133,676842,S01008928,6.46,568,5,12,"Lauriston Castle,Gypsy Brae Recreation Ground",8193.044019,1886949.594,Granton West and Salvesen - 05
+321563.2875,676326.82,S01008929,0,1,1,0,,2340.332376,137877.2759,Muirhouse - 01
+321685.7725,676085.4735,S01008930,0,1,1,0,,2683.534787,165035.2745,Muirhouse - 02
+321789.1451,675729.301,S01008931,0,1,1,0,,2605.043568,225502.2618,Muirhouse - 03
+321487.8533,675608.5,S01008932,0,1,1,0,,1318.211299,65946.39238,Muirhouse - 04
+321359.5166,675899.9895,S01008933,0,1,1,0,,1498.064794,62077.8251,Muirhouse - 05
+321155.8578,675968.621,S01008934,0,1,1,0,,1989.898423,99683.10196,Muirhouse - 06
+321118.1499,675625.483,S01008935,5.02,524,5,13,"Lauriston Castle,Davidsons Mains Park",2245.54957,144795.5172,Silverknowes and Davidson's Mains - 01
+320993.9927,675226.7045,S01008936,7.33,580,5,21,"Davidsons Mains Park,Corstorphine Hill,Lauriston Castle",2216.057145,152783.5114,Silverknowes and Davidson's Mains - 02
+320744.6491,675361.19,S01008937,7.33,580,5,21,"Davidsons Mains Park,Corstorphine Hill,Lauriston Castle",2520.349222,173401.0899,Silverknowes and Davidson's Mains - 03
+320752.2493,675851,S01008938,7.33,580,5,18,"Corstorphine Hill,Lauriston Castle,Davidsons Mains Park",2406.467578,151451.6265,Silverknowes and Davidson's Mains - 04
+320054.2107,676419,S01008939,7.36,585,5,15,"Lauriston Castle,Davidsons Mains Park",7192.117429,1107531.967,Silverknowes and Davidson's Mains - 05
+319814.9996,675715,S01008940,7.33,580,5,24,"Davidsons Mains Park,Corstorphine Hill,Lauriston Castle",5494.238644,1254942.856,Silverknowes and Davidson's Mains - 06
+319100.6501,676733.3,S01008941,0,1,1,0,,6439.136511,557045.0504,Cramond - 01
+318596.534,676368.9995,S01008942,0,1,1,0,,2333.43448,196990.8023,Cramond - 02
+318532.5038,676013,S01008943,0,1,1,0,,4495.07072,364700.1187,Cramond - 03
+318649.6651,675564.5,S01008944,1.66,267,2,3,Cammo Estate,5524.195965,760572.4181,"Barnton, Cammo and Cramond South - 01"
+317850.3407,674993.5,S01008945,1.66,267,2,12,Cammo Estate,3117.200086,241119.1502,"Barnton, Cammo and Cramond South - 02"
+318441.4082,675014.5,S01008946,1.66,267,2,12,Cammo Estate,3115.006821,323780.5592,"Barnton, Cammo and Cramond South - 03"
+319312.0282,675139.658,S01008947,4.67,516,4,7,"Davidsons Mains Park,Corstorphine Hill",2443.378667,285454.2759,"Barnton, Cammo and Cramond South - 04"
+319025.4868,674718.4995,S01008948,4.67,516,4,9,"Davidsons Mains Park,Corstorphine Hill",3358.333459,193355.9086,Clermiston and Drumbrae - 01
+319665.8919,674672,S01008949,4.67,516,4,7,"Davidsons Mains Park,Corstorphine Hill",2615.574914,204287.0237,Clermiston and Drumbrae - 02
+320235.1563,674759.5,S01008950,4.67,516,4,19,"Davidsons Mains Park,Corstorphine Hill",3356.146967,372283.7224,Clermiston and Drumbrae - 03
+319790.1761,674214.5,S01008951,2.31,381,3,3,Corstorphine Hill,2378.720194,117594.4041,Clermiston and Drumbrae - 04
+319575.6652,673992.776,S01008952,2.31,381,3,2,Corstorphine Hill,1817.234298,105376.0333,Clermiston and Drumbrae - 05
+319335.2228,674098,S01008953,2.31,381,3,2,Corstorphine Hill,2065.272105,137153.0524,Clermiston and Drumbrae - 06
+319310.415,674437.5,S01008954,2.31,381,3,2,Corstorphine Hill,2673.095532,221356.3256,Clermiston and Drumbrae - 07
+318780.6729,674659.9885,S01008955,0,1,1,1,Cammo Estate,2725.442741,161218.53,East Craigs North - 01
+318650.6043,674381,S01008956,0,1,1,0,,2690.888962,153555.7773,East Craigs North - 02
+318885.952,674356,S01008957,0,1,1,0,,1805.890466,124450.3938,East Craigs North - 03
+318725.3922,673855.242,S01008958,0,1,1,1,Gyle Park & Playing Fields,2155.286603,123805.1506,East Craigs North - 04
+318287.4733,673902.567,S01008959,0,1,1,0,,2088.752063,140842.0719,East Craigs North - 05
+318209.4005,673408.868,S01008960,1.68,271,2,12,Gyle Park & Playing Fields,2541.131544,272955.8628,East Craigs South - 01
+318526.7656,673655.904,S01008961,0,1,1,1,Gyle Park & Playing Fields,1797.992842,137268.7891,East Craigs South - 02
+318686.6856,673338.987,S01008962,1.68,271,2,11,Gyle Park & Playing Fields,2108.801107,109994.2872,East Craigs South - 03
+318476.8967,672965,S01008963,1.68,271,2,22,Gyle Park & Playing Fields,2017.561937,186285.0227,East Craigs South - 04
+319039.346,673019.7845,S01008964,1.68,271,2,22,Gyle Park & Playing Fields,2211.7453,155815.7948,East Craigs South - 05
+318992.5189,673502.9995,S01008965,0,1,1,2,Gyle Park & Playing Fields,2952.486521,207289.8052,East Craigs South - 06
+318985.4269,673886.0005,S01008966,0,1,1,0,,1735.531554,131564.4925,East Craigs South - 07
+319445.5571,673419.5,S01008967,1.68,271,2,4,Gyle Park & Playing Fields,3201.440757,274672.7694,Corstorphine North - 01
+319823.8133,673696.5,S01008968,2.31,381,3,2,Corstorphine Hill,2605.363183,275219.8612,Corstorphine North - 02
+320276.6646,674067.5,S01008969,4.67,516,4,8,"Davidsons Mains Park,Corstorphine Hill",4133.348361,539627.3125,Corstorphine North - 03
+319768.5413,673173,S01008970,0,1,1,1,Gyle Park & Playing Fields,2767.920534,228624.9936,Corstorphine - 01
+320290.9282,673241,S01008971,0,1,1,0,,2322.520957,130200.8381,Corstorphine - 02
+320349.0207,673075.5,S01008972,0,1,1,0,,1927.784064,168062.9722,Corstorphine - 03
+320816.8842,673520,S01008973,2.31,381,3,3,Corstorphine Hill,8633.22783,1277147.69,Corstorphine - 04
+319685.8297,672852.4995,S01008974,1.68,271,2,5,Gyle Park & Playing Fields,2298.833461,148843.9843,Corstorphine - 05
+319761.3743,672686.472,S01008975,1.68,271,2,4,Gyle Park & Playing Fields,3219.133039,174973.7972,Corstorphine - 06
+320046.7256,672454.5,S01008976,0,1,1,1,Gyle Park & Playing Fields,2440.569545,111755.6606,Corstorphine - 07
+320407.6663,672591,S01008977,0,1,1,0,,2558.169346,183174.0571,Carrick Knowe - 01
+320755.5446,672454,S01008978,0,1,1,0,,1594.530701,72332.10597,Carrick Knowe - 02
+320769.5312,672126.4995,S01008979,0,1,1,0,,1351.1117,74490.0365,Carrick Knowe - 03
+320454.5964,672076,S01008980,0,1,1,0,,2256.904874,144737.001,Carrick Knowe - 04
+320090.9139,672266.213,S01008981,0,1,1,0,,2241.003067,138146.5759,Corstorphine South - 01
+320212.2389,671976.806,S01008982,0,1,1,0,,1454.787662,99837.55062,Corstorphine South - 02
+319957.7364,671713.5,S01008983,1.23,252,2,11,Sighthill Park,1662.934087,89568.489,Corstorphine South - 03
+319910.4996,671966,S01008984,0,1,1,0,,1464.294383,61074.66634,Corstorphine South - 04
+319569.6129,671880,S01008985,2.91,445,4,21,"Sighthill Park,Gyle Park & Playing Fields",4116.652999,322567.329,Corstorphine South - 05
+319629.1855,672283.5,S01008986,1.68,271,2,8,Gyle Park & Playing Fields,1645.079531,112230.5078,Corstorphine South - 06
+319245.6518,672295,S01008987,1.68,271,2,22,Gyle Park & Playing Fields,2637.737488,139673.3418,South Gyle - 01
+318899.4771,672590.9515,S01008988,1.68,271,2,23,Gyle Park & Playing Fields,3648.767882,414334.0757,South Gyle - 02
+319142.2374,672033,S01008989,1.68,271,2,21,Gyle Park & Playing Fields,1692.67524,72934.62436,South Gyle - 03
+318908.7845,671715,S01008990,2.91,445,4,22,"Sighthill Park,Gyle Park & Playing Fields",4267.767625,554793.4705,South Gyle - 04
+318597.9189,672222.2315,S01008991,1.68,271,2,23,Gyle Park & Playing Fields,2129.985737,150136.3776,South Gyle - 05
+317972.2309,671537.019,S01008992,1.68,271,2,22,Gyle Park & Playing Fields,9806.166158,2155162.757,South Gyle - 06
+316294.4247,672381.5005,S01008993,3.34,454,4,33,"Gyle Park & Playing Fields,Cammo Estate",30317.43536,18051972.02,"Ratho, Ingliston and Gogar - 01"
+313570.3969,670616,S01008994,0,1,1,0,,1963.731426,138206.0892,"Ratho, Ingliston and Gogar - 02"
+313698.5385,671020.4685,S01008995,0,1,1,0,,6351.90629,412568.1642,"Ratho, Ingliston and Gogar - 03"
+314328.8368,671772.5,S01008996,0,1,1,0,,14965.97794,5525954.402,"Ratho, Ingliston and Gogar - 04"
+311902.726,671917.3672,S01008997,0,1,1,0,,28550.11453,12402868.05,"Dalmeny, Kirkliston and Newbridge - 01"
+312173.2225,674092,S01008998,0,1,1,0,,2356.635547,197348.8953,"Dalmeny, Kirkliston and Newbridge - 02"
+312421.8563,674420.87,S01008999,0,1,1,0,,3220.606385,227033.945,"Dalmeny, Kirkliston and Newbridge - 03"
+313995.4355,674936.3035,S01009000,0,1,1,0,,11645.44573,5868814.732,"Dalmeny, Kirkliston and Newbridge - 04"
+312001.9312,674808.6075,S01009001,0,1,1,0,,2051.287925,171184.2629,"Dalmeny, Kirkliston and Newbridge - 05"
+314487.0917,677143.389,S01009002,1.66,267,2,6,Cammo Estate,35499.40157,22060041.88,"Dalmeny, Kirkliston and Newbridge - 06"
+313973.4134,677983,S01009003,0,1,1,0,,6183.065458,863348.1389,Queensferry East - 01
+313674.9462,677478.4995,S01009004,0,1,1,0,,2370.258306,111104.0435,Queensferry East - 02
+312842.4776,677489.5,S01009005,0,1,1,0,,3343.693143,226058.9698,Queensferry East - 03
+313020.5131,677793.0805,S01009006,0,1,1,0,,2755.28016,179961.224,Queensferry East - 04
+313348.3999,677810,S01009007,0,1,1,0,,1953.256453,91596.78546,Queensferry East - 05
+312698.8599,678093.6495,S01009008,0,1,1,0,,4105.135231,357132.9054,Queensferry East - 06
+312304.6716,678535.5,S01009009,0,1,1,0,,2484.60637,210393.5156,Queensferry West - 01
+312138.2407,678136.682,S01009010,0,1,1,0,,2549.606615,205712.1157,Queensferry West - 02
+312231.0474,677871.8595,S01009011,0,1,1,0,,1737.741513,153232.9748,Queensferry West - 03
+311754.9709,677926,S01009012,0,1,1,0,,1694.365106,119245.3229,Queensferry West - 04
+311631.4938,678496,S01009013,0,1,1,0,,5408.285433,759403.4418,Queensferry West - 05
