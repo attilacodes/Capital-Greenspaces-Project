@@ -20,7 +20,7 @@ To use some of our code, simply fork this repo. Note: repurpose of code required
 
 
 ## Access the Website
-To access the website, [click here.](https://www.geos.ed.ac.uk/dev/ARQI). The website supports both viewing in desktop and mobile devices. For best view of the webmap, please refer to the desktop version.
+To access the website, [click here](https://www.geos.ed.ac.uk/dev/ARQI). The website supports both viewing in desktop and mobile devices. For best view of the webmap, please refer to the desktop version.
 
 ## Support
 If you require help using the Python module package for your research, please direct emails to (s1729202@ed.ac.uk). If you encounter an issue with the code, you can add the issue to the [issues list](https://github.com/attilacodes/Capital-Greenspaces-Project/issues).
