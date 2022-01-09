@@ -99,7 +99,7 @@ def dynamic_queries():
                                                                 result = c.execute("SELECT s2236682.DATAZ.DATAZONE_CODE, s2236682.DATAZ.DATAZONE_NAME FROM s2236682.GREENSPACE, s2236682.DATAZ WHERE s2236682.GREENSPACE.GREENSPACE_ID = s2236682.DATAZ.GREENSPACE_ID AND s2236682.GREENSPACE.GREENSPACE_NAME LIKE :query || '%'",{"query": str(query)}).fetchall()
                                                                 #access each element within tuple getting rid of unneccessary characters in one go
                                                                 #Markup adds html styling to the accessed elements
-                                                                query = Markup("<b><br>Datazone codes: </b>") + ('\n'.join([i[0] for i in result])) + Markup("</br>") + Markup("<b><br>Datazone names: </b>") + ('\n'.join([i[1] for i in result])) + Markup("</br>")
+                                                                query = Markup("<b><br>Datazone codes: </b>") + (', '.join([i[0] for i in result])) + Markup("</br>") + Markup("<b><br>Datazone names: </b>") + (', '.join([i[1] for i in result])) + Markup("</br>")
                                                                                                 
                                                                 conn.close()
                              
