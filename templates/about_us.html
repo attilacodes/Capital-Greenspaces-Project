@@ -1,4 +1,4 @@
-{% extends "base.html" %} {% block title %}About Us{% endblock %}
+{% extends "base.html" %} {% block title %}About Us | Capital Greenspaces Project - Group 6{% endblock %}
 {% block content %}
 
 <!DOCTYPE html>
@@ -7,11 +7,10 @@
   <!-----head----->
   
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
     <title>About Us</title>
     <!-- css -->
-    <link rel="stylesheet" href="static/aboutusstyle.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='aboutusstyle.css') }}">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
@@ -22,10 +21,10 @@
       <!-- start menu -->
       <div class="header">
         <nav>
-          <a href="/">Home</a>
-          <a href="/webmap">Interactive Webmap</a>
-          <a href="/data">Query and Download</a>
-          <a class="active" href="#About Us">About Us</a>
+          <a href="{{ url_for('views.home') }}">Home</a>
+          <a href="{{ url_for('webmap.web_map') }}">Interactive Webmap</a>
+          <a href="{{ url_for('query.index') }}">Query and Download</a>
+          <a class="active" href="{{ url_for('team.aboutus') }}">About Us</a>
         </nav>
       </div>
       <!-- end menu -->
@@ -68,7 +67,7 @@
 		  <div data-wow-duration="500ms" >
 		    <div class="block">
 		      <div class="icon-box" align="center">
-			<img src="static/map.png" alt="" width="150">
+			<a href={{ url_for('webmap.web_map') }}><img src="static/map.png" alt="map image" width="150"></a>
 		      </div>
 		      <!-- Express About Yourself -->
 		      <div>
@@ -85,7 +84,7 @@
 		  <div data-wow-duration="500ms" data-wow-delay="250ms">
 		    <div id="block1">
 		      <div id="icon-box1" align="center">
-			<img src="static/query.png" alt="" width="150">
+			<a href="{{ url_for('query.index') }}"><img src="static/query.png" alt="query image" width="150"></a>
 		      </div>
 		      <!-- Express About Yourself -->
 		      <div id="content text-center1">
@@ -103,7 +102,7 @@
 		  <div data-wow-duration="500ms" data-wow-delay="500ms">
 		    <div id="block2" align="center">
 		      <div id="icon-box2">
-			<img src="static/download.png" alt="" width="150">
+			<a href="{{ url_for('query.index') }}"><img src="static/download.png" alt="download image" width="150"></a>
 		      </div>
 		      <!-- Express About Yourself -->
 		      <div id="content text-center2">
@@ -139,7 +138,7 @@
 		  <div id="team-member1">
 		    <div id="member-photo1">
 		      <!-- member photo -->
-		      <img src="static/victoria.png" alt="" width="215" height="215" />
+		      <img src="static/victoria.png" alt="team member" width="215" height="215" />
 				  <!-- /member photo -->
 			    </div>
 					
@@ -162,7 +161,7 @@
                 <div id="team-member2" align="center">
 			      <div id="member-photo2">
 					<!-- member photo -->
-					<img src="static/attila.png" alt="" width="215" height="215" />
+					<img src="static/attila.png" alt="team member" width="215" height="215" />
 					<!-- /member photo -->
 				  </div>
 					
@@ -183,7 +182,7 @@
                 <div id="team-member3" align="center">
 				  <div id="member-photo3">
 					<!-- member photo -->
-					<img src="static/dorina.png" alt="" width="215" height="215" />
+					<img src="static/dorina.png" alt="team member" width="215" height="215" />
 					<!-- /member photo -->
 				  </div>
 					
@@ -206,7 +205,7 @@
                 <div id="team-member4" align="center">
 				  <div id="member-photo4">
 					<!-- member photo -->
-					<img src="static/yixue.png" alt="" width="215" height="215" />
+					<img src="static/yixue.png" alt="team member" width="215" height="215" />
 					<!-- /member photo -->
 				  </div>
 					
@@ -229,7 +228,7 @@
                 <div id="team-member5" align="center">
 				  <div id="member-photo5">
 					<!-- member photo -->
-					<img src="static/georgie.png" alt="" width="215" height="215" />
+					<img src="static/georgie.png" alt="team member" width="215" height="215" />
 					<!-- /member photo -->
 				  </div>
 					
@@ -273,16 +272,17 @@
 			  </td>
 			  <td width="400">
               <div id="contact_right">
-                <p class="textcontact"><img src="static/location.png" alt="" width="20" height="20" /> Old Infirmary Building, 1 Drummond St, Edinburgh EH8 9XP.</p>
-                <p class="textcontact"><img src="static/phone.png"  alt="" width="20" height="20"/> +44 (0) 131 651 7068</p>
-			    <p class="textcontact"><img src="static/email.png"  alt="" width="20" height="20"/><a href="mailto:enquiries.geos@ed.ac.uk"> enquiries.geos@ed.ac.uk </a></p>
-                <p class="textcontact"><img src="static/web.png" alt="icon 3" width="20" height="20"/><a  href="https://www.ed.ac.uk/geosciences" target="_blank"> https://www.ed.ac.uk/geosciences</a></p>
+                <p class="textcontact"><img src="static/location.png" alt="icon" width="20" height="20" /> Old Infirmary Building, 1 Drummond St, Edinburgh EH8 9XP.</p>
+                <p class="textcontact"><img src="static/phone.png"  alt="icon" width="20" height="20"/> +44 (0) 131 651 7068</p>
+			    <p class="textcontact"><img src="static/email.png"  alt="icon" width="20" height="20"/><a href="mailto:enquiries.geos@ed.ac.uk"> enquiries.geos@ed.ac.uk </a></p>
+                <p class="textcontact"><img src="static/web.png" alt="icon" width="20" height="20"/><a  href="https://www.ed.ac.uk/geosciences" target="_blank"> https://www.ed.ac.uk/geosciences</a></p>
          
 			    <div align="right">
-                  <form class="form-horizontal" action="mailto:s2187901@ed.ac.uk" method="post" enctype="text/plain">
-                    <input type="text" name="user name" class="form-control" placeholder="Your Name..." maxlength="40" />
-                    <input type="text" name="user email" class="form-control" placeholder="Your Email..." maxlength="40" />
-                    <textarea  name="user message" class="form-control" style="height: 130px;" placeholder="Write down your message..."></textarea>
+                  <form action="https://formsubmit.co/s1729202@ed.ac.uk" method="post">
+                    <input type="text" name="user name" class="form-control" placeholder="Your Name..." maxlength="40" style="width: 500px;" required/>
+                    <input type="email" name="email" class="form-control" placeholder="  Your Email..." style="width: 500px;" required />
+                    <textarea type="text" name="user message" class="form-control" style="height: 130px;" placeholder="Write down your message..." style="width: 500px;" required></textarea>
+		    <input type="hidden" name="_next" value="https://www.geos.ed.ac.uk/dev/ARQI/aboutus"/>
                     <button type="submit" style="background-color:#19422A"><font color="#FFFFFF">SEND</font></button>
                   </form>
                 </div>
@@ -316,38 +316,38 @@
                   <ul class="list-inline">
 					<table align="center"><tr><td width="240" align="center">
                     <li id="about-more-item1">
-				      <div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/carbon-dynamics/" target="_blank"><img src="static/carbon.png" alt="" width="150" height="150" /></a></div>
-                      <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/carbon-dynamics/" target="_blank">Value in terms of <br> a carbon sink</a>
+				      <div align="center"><a href="https://www.geos.ed.ac.uk/~s2259785/home.html" target="_blank"><img src="static/carbon.png" alt="carbon management" width="150" height="150" /></a></div>
+                      <a class="textcontent" href="https://www.geos.ed.ac.uk/~s2259785/home.html" target="_blank">Value in terms of <br> a carbon sink</a>
                     </li>
 					</td>
 					<td width="240" align="center">
                       <li id="about-more-item2">
-						<div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/flood-risk-alleviation/" target="_blank"><img src="static/flood.png" alt="" width="150" height="150" /></a></div>
-                        <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/flood-risk-alleviation/" target="_blank">Flood <br> management</a>
+						<div align="center"><a href="https://www.geos.ed.ac.uk/~s1739577/cgs/home.html" target="_blank"><img src="static/flood.png" alt="flood management" width="150" height="150" /></a></div>
+                        <a class="textcontent" href="https://www.geos.ed.ac.uk/~s1739577/cgs/home.html" target="_blank">Flood <br> management</a>
                       </li>
 					</td>
 					<td width="240" align="center">
                       <li id="about-more-item3">
-						<div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/biodiversity/" target="_blank"><img src="static/eco.png" alt="" width="150" height="150" /></a></div>
-                        <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/biodiversity/" target="_blank">Ecological <br> significance</a>
+						<div align="center"><a href="https://www.geos.ed.ac.uk/~s2013902/Ecology_home.html" target="_blank"><img src="static/eco.png" alt="ecological management" width="150" height="150" /></a></div>
+                        <a class="textcontent" href="https://www.geos.ed.ac.uk/~s2013902/Ecology_home.html" target="_blank">Ecological <br> significance</a>
                       </li>
 					</td>
 					<td width="240" align="center">
                       <li id="about-more-item4">
-						<div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/noise-abatement/" target="_blank"><img src="static/noice.png" alt="" width="150" height="150" /></a></div>
-                        <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/noise-abatement/" target="_blank">Reducing <br> pollution</a>
+						<div align="center"><a href="https://www.geos.ed.ac.uk/~s2126397/GS_Web/GSHome.html" target="_blank"><img src="static/noice.png" alt="pollution" width="150" height="150" /></a></div>
+                        <a class="textcontent" href="https://www.geos.ed.ac.uk/~s2126397/GS_Web/GSHome.html" target="_blank">Reducing <br> pollution</a>
                       </li>
 					</td>
 					<td width="240" align="center">
                       <li id="about-more-item5">
-						<div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/improving-physical-health/" target="_blank"><img src="static/health.png" alt="" width="150" height="150" /></a></div>
-                        <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/improving-physical-health/" target="_blank">Health <br> benefits</a>
+						<div align="center"><a href="https://www.geos.ed.ac.uk/~s1737656/cgshealth" target="_blank"><img src="static/health.png" alt="health" width="150" height="150" /></a></div>
+                        <a class="textcontent" href="https://www.geos.ed.ac.uk/~s1737656/cgshealth" target="_blank">Health <br> benefits</a>
                       </li>
 					</td>
 					<td width="240" align="center">
                       <li id="about-more-item6">
-						<div align="center"><a href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/culture-and-heritage/" target="_blank"><img src="static/ch.png" alt="" width="150" height="150" /></a></div>
-                        <a class="textcontent" href="https://www.forestresearch.gov.uk/tools-and-resources/fthr/urban-regeneration-and-greenspace-partnership/greenspace-in-practice/benefits-of-greenspace/culture-and-heritage/" target="_blank">Cultural and <br>historical value</a>
+						<div align="center"><a href="https://www.geos.ed.ac.uk/~s1997205/web-map/home.html" target="_blank"><img src="static/ch.png" alt="cultural heritage" width="150" height="150" /></a></div>
+                        <a class="textcontent" href="https://www.geos.ed.ac.uk/~s1997205/web-map/home.html" target="_blank">Cultural and <br>historical value</a>
                       </li>
 					</td></tr></table>
                   </ul>

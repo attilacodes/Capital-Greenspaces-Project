@@ -1,4 +1,4 @@
-{% extends "base.html" %} {% block title %}Webmap{% endblock %}
+{% extends "base.html" %} {% block title %}Webmap | Capital Greenspaces Project - Group 6{% endblock %}
 {% block content %}
 <!doctype html>
 
@@ -44,11 +44,11 @@
     <!-- Creation of interactive header-->
     <div class="header">
       <nav>
-        <a href="/">Home</a>
-        <a class="active" href="/webmap">Interactive Webmap</a>
-        <a href="/data">Query and Download</a>
-        <a href="/aboutus">About Us</a>
-	<a class="active" href="static/userguide.png" data-lightbox="popup">User Guide</a>
+        <a href="{{ url_for('views.home') }}">Home</a>
+        <a class="active" href="{{ url_for('webmap.web_map') }}">Interactive Webmap</a>
+        <a href="{{ url_for('query.index') }}">Query and Download</a>
+        <a href="{{ url_for('team.aboutus') }}">About Us</a>
+	<a class="active" href="static/userguide.jpg" data-lightbox="popup">User Guide</a>
       </nav>
     </div>
 
@@ -66,9 +66,41 @@
       </figure>
 
       <hr>
-      
-      
+
+      <!--DESCRIPTION-->
+      <section  align="center" style="background: #E9F5E9">
 	
+	  
+
+	    <!-- section title -->
+	    <div class="text-center" style="background: #E9F5E9">
+	      <br>
+	      <center><font size="+1" color="#19422A"><p>INTERACTIVE WEBMAP</p></font>
+	      <font size="+3" color="#448D38"><b>What do the map layers show?</b></font>
+	      <hr>
+	      <p>
+		  <ul>
+		    The <b><em>ARQI - Edinburgh</em></b> layer displays our index in each Datazone in Edinburgh. You can hover over the datazones to find out their score.
+		  </ul>
+		  <ul>
+		    The <b><em>Greenspaces - Edinburgh</em></b> layer displays the greenspaces included in our study. You can hover over the greenspaces to find out their score.
+		  </ul>
+		  <ul>
+		    The <b><em>SIMD</em></b> layer displays the Scottish Index of Multiple Deprivation. You can hover over the datazones to find out their score.
+		  </ul>
+		  <ul>
+		    The <b><em>Greenspace Access Points</em></b> layer shows the access points of each greenspace.
+		  </ul>
+		  <ul>
+		    The <b><em>Heatmap</em></b> layer shows where the greenspace access points are clustered in Edinburgh.
+		  </ul>
+		  <br>
+		  <font size="+1">With the measure tool you can measure distances and areas such as the distance between a location and a greenspace access point or the area of a greenspace.<br>For visual help, please use the <em>User Guide</em> in the navigation bar on the top of the page.<br><br>
+	      </font></center>
+	    </div>
+	  
+	
+	</section>
 <!--WEBMAP-->
 		
 <div class="container">
@@ -81,7 +113,7 @@
 
  <!--GitHub ribbon-->
 
-<a href="https://github.com/attilacodes" target="_blank"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" style="position: fixed; top: 0; right: 0; border: 0;" alt="Find me on GitHub" ></a>
+<a href="https://github.com/attilacodes/Capital-Greenspaces-Project" target="_blank"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" style="position: fixed; top: 0; right: 0; border: 0;" alt="Find me on GitHub" ></a>
 
 <!--- Footer --->
       <div>

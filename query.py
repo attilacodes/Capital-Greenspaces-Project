@@ -12,16 +12,19 @@ query = Blueprint('query', __name__)
    
 @query.route("/data", methods=['POST', 'GET'])
 def index():
-                """ Open connection to Oracle RDBMS to retrieve all greenspace names. The results will then be used to populate the drop-down menu for the user's use
-
+                """ Pass HTML form elements to Python script for processing. Once passed, a connection to Oracle RDBMS is created and unique data is retrieved and displayed.
                 Parameters
                 ----------
                 conn = establishes connection to the Oracle RDBMS using username and password
                 html = list containing all greenspace names from conn.cursor
+                result = list holding a variety of data from conn.cursor depending on the items passed from HTML form
+
+
 
                 Returns
                 -------
-                greenspaces = all data defined by 'html' variable and rendered on the query_download HTML file
+                query = filtered rows of information from retrieved data (from Oracle) in tuple format and subsequently rendered onto the query_download HTML file
+                greenspaces = all data defined by 'html' variable and rendered onto the query_download HTML file
 
                 """
                 
@@ -99,7 +102,7 @@ def dynamic_queries():
                                                                 result = c.execute("SELECT s2236682.DATAZ.DATAZONE_CODE, s2236682.DATAZ.DATAZONE_NAME FROM s2236682.GREENSPACE, s2236682.DATAZ WHERE s2236682.GREENSPACE.GREENSPACE_ID = s2236682.DATAZ.GREENSPACE_ID AND s2236682.GREENSPACE.GREENSPACE_NAME LIKE :query || '%'",{"query": str(query)}).fetchall()
                                                                 #access each element within tuple getting rid of unneccessary characters in one go
                                                                 #Markup adds html styling to the accessed elements
-                                                                query = Markup("<b><br>Datazone codes: </b>") + ('\n'.join([i[0] for i in result])) + Markup("</br>") + Markup("<b><br>Datazone names: </b>") + ('\n'.join([i[1] for i in result])) + Markup("</br>")
+                                                                query = Markup("<b><br>Datazone codes: </b>") + (', '.join([i[0] for i in result])) + Markup("</br>") + Markup("<b><br>Datazone names: </b>") + (', '.join([i[1] for i in result])) + Markup("</br>")
                                                                                                 
                                                                 conn.close()
                              

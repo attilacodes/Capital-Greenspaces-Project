@@ -21,7 +21,7 @@ def web_map():
     map = creates the map
 
     """
-    map = folium.Map(location=[55.9486,-3.2008], tiles='openstreetmap',zoom_start=12)
+    map = folium.Map(location=[55.9306,-3.2337], tiles='openstreetmap',zoom_start=12)
 
     folium.TileLayer('openstreetmap').add_to(map)
     folium.TileLayer('Stamen Terrain').add_to(map)
@@ -80,7 +80,7 @@ def web_map():
         data = arqi_data,
         columns = ['DataZone', 'Quintile'],
         key_on = 'feature.properties.DataZone',
-        fill_color = 'OrRd',
+        fill_color = 'OrRd_r',
         fill_opacity = 0.7,
         line_opacity = 1,
         legend_name = 'ARQI 1-5 (Quintile 1 = Most Environmentally Deprived)',
@@ -101,7 +101,7 @@ def web_map():
 
 #add custom legend to layer
     
-    step = cm.StepColormap(['#fef0d9', '#fdcc8a', '#fc8d59', '#e34a33', '#b30000'],
+    step = cm.StepColormap(['#b30000', '#e34a33', '#fc8d59', '#fdcc8a','#fef0d9'],
     vmin = 1, vmax = 6,
     index = [1, 2, 3, 4, 5], caption='ARQI (Quintile 1 = Most Environmentally Deprived)')
 
@@ -150,7 +150,7 @@ def web_map():
         data = df_simd_data,
         columns = ['DataZone', 'Quintilev2'],
         key_on = 'feature.properties.DataZone',
-        fill_color = 'Blues',
+        fill_color = 'Blues_r',
         fill_opacity = 0.7,
         show=False,
         highlight=highlight_function,
@@ -173,7 +173,7 @@ def web_map():
 
 #add custom legend to layer
     
-    step = cm.StepColormap(['#eff3ff', '#bdd7e7', '#6baed6', '#3182bd', '#08519c'],
+    step = cm.StepColormap(['#08519c', '#3182bd', '#6baed6', '#bdd7e7', '#eff3ff'],
     vmin = 1, vmax = 6,
     index = [1, 2, 3, 4, 5], caption='Scottish Index of Multiple Deprivation (Quintile 1 = Most Socially Deprived)')
 
@@ -216,9 +216,11 @@ def web_map():
 
     folium.LayerControl().add_to(map)
 
+    
+
     map.save('recreation/templates/map.html')
 
     
     
-    return render_template('webmap.html', map = map )
+    return render_template('webmap.html', map = map)
 #    return render_template('map.html')

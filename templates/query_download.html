@@ -1,4 +1,4 @@
-{% extends "base.html" %} {% block title %}Query and Download{% endblock %}
+{% extends "base.html" %} {% block title %}Query and Download | Capital Greenspaces Project - Group 6{% endblock %}
 {% block content %}
 
 <!DOCTYPE html>
@@ -37,10 +37,11 @@
     <!-- Creation of interactive header-->
     <div class="header">
       <nav>
-        <a href="/">Home</a>
-        <a href="/webmap">Interactive Webmap</a>
-        <a class="active" href="/data">Query and Download</a>
-        <a href="/aboutus">About Us</a>
+        <a href="{{ url_for('views.home') }}">Home</a>
+        <a href="{{ url_for('webmap.web_map') }}">Interactive Webmap</a>
+        <a class="active" href="{{ url_for('query.index') }}">Query and Download</a>
+        <a href="{{ url_for('team.aboutus') }}">About Us</a>
+	<a class="active" href="https://forms.office.com/r/2RnwVbTARf" target="_blank">Data Improvement</a>
       </nav>
     </div>
 
@@ -72,13 +73,11 @@
 	     <hr>
 	</div>
 	
-
-    <!-- Print out query content from child template -->
 	<br>
 	
    <!-- Design of HTML form (to pass data to server side) -->
 <center>
-<form id = "greenspaceServices" method="POST" action="/submitted">
+<form id = "greenspaceServices" method="POST" action="{{ url_for('query.dynamic_queries') }}">
 <label for="greenspace" style="font-size: 20px">Choose a greenspace:</label>
 <select name="greenspace" id="greenspace">
   {% for greenspace in greenspaces %}
@@ -98,7 +97,7 @@
 </form>
 
 <!-- Design another form and button to redirect back to the mainpage (to enable infinite queries) -->
-<form id="resubmit" action="/data" method='POST'>
+<form id="resubmit" action="{{ url_for('query.index') }}" method='POST'>
     <button class="btn" style= "width:130px">Resubmit<a href="{{url_for('query.index')}}"></button></a>
 </form>
 
@@ -124,16 +123,16 @@
       <center><h3>Full datasets of each of the three 'services' offered are available to be freely downloaded for your use. Available in CSV format.</h3></center> 
       <hr>
       <div class="w3-row-padding">
-	  <center><img src="/static/query_download.png" alt="Download cloud" style="width:100%; height:300px;object-fit:scale-down;margin: 0px; padding: 0px;"</center>	 
+	  <center><img src="{{ url_for('static', filename='query_download.png') }}" alt="Download cloud" style="width:100%; height:300px;object-fit:scale-down;margin: 0px; padding: 0px;"</center>	 
       <div class="w3-third w3-container w3-margin-bottom">
-	  <h3><a href="/static/greenspaces_service_areas.csv" download>Greenspace Service Areas (City of Edinburgh)</a></h3>
+	  <h3><a href="{{ url_for('static', filename='greenspaces_service_areas.csv') }}" download>Greenspace Service Areas (City of Edinburgh)</a></h3>
       </div>
       <div class="w3-third w3-container w3-margin-bottom">
-	  <h3><a href="/static/greenspace_quality.csv" download>Greenspace Quality (City of Edinburgh)</a></h3>
+	  <h3><a href="{{ url_for('static', filename='greenspace_quality.csv') }}" download>Greenspace Quality (City of Edinburgh)</a></h3>
 	  <h5><i>Refer to the <a href="https://www.edinburgh.gov.uk/downloads/file/30233/parks-quality-report-2021" alt="Link to Green Flag Award Report 2021" target="_blank">Green Flag Award Report (2021)</a> for further information on greenspace grades</i></h5>
       </div>
       <div class="w3-third w3-container w3-margin-bottom">
-	  <h3><a href="/static/greenspace_provisions.csv" download>Greenspace Provisions (City of Edinburgh)</a></h3>
+	  <h3><a href="{{ url_for('static', filename='greenspace_provisions.csv') }}" download>Greenspace Provisions (City of Edinburgh)</a></h3>
       </div>
       </div>
       </section>

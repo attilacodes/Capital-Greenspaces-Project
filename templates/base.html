@@ -5,10 +5,12 @@
   <head>
 
     <meta charset='utf-8' />
-    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <!-- Dynamic rescaling of webpage to fit device size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+    <link rel="shortcut icon" href="static/favicon.ico">
     
     <title>{% block title %}Home{% endblock %}</title>
 
@@ -19,6 +21,8 @@
     {% block content %}
     {% endblock %}
     <footer>
+
+      <!-- Scroll to top button -->
     <button id="btnScrollToTop">
       <i class="material-icons">arrow_upward</i>
     </button>
@@ -50,12 +54,6 @@
         });
       });
     </script>
-
-    <script
-      type='text/javascript'
-      src='{{ url_for('static', filename='index.js') }}'
-      ></script>
-
     
     </footer>
   </body>

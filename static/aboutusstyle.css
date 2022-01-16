@@ -38,7 +38,7 @@ h1, h2, h3, h5{
 
 .about-section {
   padding:18px 80px 700px 60px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url("../static/aboutusphoto.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url("../static/aboutus_photo.jpg");
   background-position: bottom center;
   background-size:cover;
   background-repeat: no-repeat;

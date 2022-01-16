@@ -1,4 +1,4 @@
-{% extends "base.html" %} {% block title %}Home{% endblock %}
+{% extends "base.html" %} {% block title %}Home | Capital Greenspaces Project - Group 6{% endblock %}
 {% block content %}
 
 <!doctype html>
@@ -9,11 +9,9 @@
     <meta charset="UTF-8">
     <title>ARQI Homepage</title>
     <!-- Import stylesheets -->
-    <link rel="stylesheet" href="static/webpage_style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='webpage_style.css') }}">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Dynamic rescaling of webpage to fit device size -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   </head>
 
   <body>
@@ -21,10 +19,10 @@
     <!-- Creation of interactive header-->
     <div class="header">
       <nav>
-        <a class="active" href="/">Home</a>
-        <a href="/webmap">Interactive Webmap</a>
-        <a href="/data">Query and Download</a>
-        <a href="/aboutus">About Us</a>
+        <a class="active" href="{{ url_for('views.home') }}">Home</a>
+        <a href="{{ url_for('webmap.web_map') }}">Interactive Webmap</a>
+        <a href="{{ url_for('query.index') }}">Query and Download</a>
+        <a href="{{ url_for('team.aboutus') }}">About Us</a>
       </nav>
     </div>
 
@@ -54,7 +52,7 @@
 	<div class="w3-third w3-container w3-margin-bottom">
           <center><h2>Why Recreational Quality?</h2></center>
 	  <!-- Addition of image and hyperlink -->
-          <img src="static/question_mark.jpg" alt="Why recreational quality?" style="width:100%; height:300px;object-fit:cover;">
+          <img src="{{ url_for('static', filename='question_mark.jpg') }}" alt="Why recreational quality?" style="width:100%; height:300px;object-fit:cover;">
 	  <!-- Caption over image -->
 	  <figure class="textover">
             <figcaption>Photo by <a href="https://unsplash.com/photos/i--IN3cvEjg" alt="Photographer of image" target="_blank">Evan Dennis</a> on Unsplash</figcaption>
@@ -66,7 +64,7 @@
 	<!-- Repeat styling again (same as above section) -->
 	<div class="w3-third w3-container w3-margin-bottom">
           <center><h2>What is Recreational Quality?</h2></center>
-          <img src="static/direction.jpg" alt="What is recreational quality?" style="width:100%; height:300px; object-fit:cover;">
+          <img src="{{ url_for('static', filename='direction.jpg') }}" alt="What is recreational quality?" style="width:100%; height:300px; object-fit:cover;">
 	  <figure class="textover">
             <figcaption>Photo by <a href="https://unsplash.com/photos/X2bcQMMhaow" alt="Photographer of image" target="_blank">Robert Ruggiero</a> on Unsplash</figcaption>
           </figure>
@@ -76,12 +74,12 @@
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
         <center><h2>Our Project</h2></center>
-        <img src="static/lightbulb.jpg" alt="Our project idea" style="width:100%; height:300px;object-fit:cover;">
+        <img src="{{ url_for('static', filename='lightbulb.jpg') }}" alt="Our project idea" style="width:100%; height:300px;object-fit:cover;">
 	<figure class="textover">
 	  <figcaption>Photo by <a href="https://unsplash.com/photos/qAriosuB-lY" alt="Photographer of image" target="_blank">Zach Lucero</a> on Unsplash</figcaption>
 	</figure>
         <div class="w3-container w3-white w3-round">
-          <h4>We develop a novel index called the <i>ARQI</i> to assess spatial access to recreational quality. The index is intended to benefit both the general public and park planners through the delivery of information to aid decisions on visits to particular greenspaces as well as greenspace planning across Edinburgh, repsectively. The benefits of these will be highlighted in this website. Furthermore, given the large study extent of the project, we are able to form preliminary evidence of the relation between the ARQI and the <a href="https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/" alt="Link to SIMD website" style="color: blue" target="_blank">2020 Scottish Index of Multiple Deprivation (SIMD)</a>, which will serve of use in underpinning the delivery of sensible solutions to areas of differing environmental deprivation to reduce injustices.</h4>
+          <h4>We develop a novel index called the <i>ARQI</i> to assess spatial access to recreational quality. The index is intended to benefit both the general public and park planners through the delivery of information to aid decisions on visits to particular greenspaces as well as greenspace planning across Edinburgh, respectively. The benefits of these will be highlighted in this website. Furthermore, given the large study extent of the project, we are able to form preliminary evidence of the relation between the ARQI and the <a href="https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/" alt="Link to SIMD website" style="color: blue" target="_blank">2020 Scottish Index of Multiple Deprivation (SIMD)</a>, which will serve of use in underpinning the delivery of sensible solutions to areas of differing environmental deprivation to reduce injustices.</h4>
         </div>
         </div>
     </div>
@@ -100,7 +98,7 @@
 	 <h4>In order to calculate recreational quality, we selected four criteria comprising of nine factors to define this, additionally using literature<sup>4,5</sup> and the available open data to underpin our decisions. We then designed a 5-point scoring system to enable consistent scoring for all factors. The higher the score, the greater its contribution to recreational quality. All 33 public greenspaces were individually scored.</h4>
        </div>
        <div>
-	 <img src="static/stage_1_cropped.png" alt="Criteria and scoring system" style="height:410px; object-fit: contain;">
+	 <img src="{{ url_for('static', filename='stage_1_cropped.png') }}" alt="Criteria and scoring system" style="height:410px; object-fit: contain;">
        </div>
        <div>
 	 <h2><u>Stage 2</u></h2>
@@ -110,23 +108,22 @@
            <a href="https://survey123.arcgis.com/share/334e4c4a26ec49a4b6d49c80ffc9d27c" alt="Recreational Quality Survey" target="_blank">Access Survey</a></button>
        </div>
        <div>
-	 <img src="static/stage_2_small.jpg" alt="In-person surveyed greenspaces" style="height:410px ;object-fit: contain;"></div>
+	 <img src="{{ url_for('static', filename='stage_2_small.jpg') }}" alt="In-person surveyed greenspaces" style="height:410px ;object-fit: contain;"></div>
        <div>
          <h2><u>Stage 3</u></h2>
          <h4>In line with the Scottish Government's work on 20-minute neighbourhoods, 800m service areas are taken from the access points of each greenspace to visualise how greenspace accessibility varies between local areas. Then, taking the sum of greenspace quality scores per service area overlap, and aggregating this to the datazone level, these are further ranked and split into quintiles to create the ARQI.</h4>
        </div>
        <div>
-	 <img src="static/stage_3_small.jpg" alt="800m Service areas" style="height:410px; object-fit: contain;">
+	 <img src="{{ url_for('static', filename='stage_3_small.jpg') }}" alt="800m Service areas" style="height:410px; object-fit: contain;">
        </div>
     </div>
     </div>
     <br>
     <p>
       <h3><center>For more details, please access our report:</center></h3>
-    </p>
     <div>
       <button class="btn" style="width:18%; height: 70px;">
-      <a href="static/ARQI_Report_No_Exam_Number.pdf" alt="ARQI Report" target="_blank">Access Full ARQI Report (PDF)</a>
+      <a href="{{ url_for('static', filename='ARQI_Report_No_Exam_Number.pdf') }}" alt="ARQI Report" target="_blank">Access Full ARQI Report (PDF)</a>
       </button>
     </div>
     <br>
@@ -149,16 +146,25 @@
     <div class="footer_bottom_content" style="background-color:#19422A">
       <span id="footer-line" style="line-height:100px">
 	<font color="#FFFFFF"><center>Design © 2021 Group 6 ARQI,<a href="https://www.ed.ac.uk/geosciences" target="_blank"> School of GeoSciences, The University of Edinburgh</a></center></font></span>
-	<p><h3><font color="#FFFFFF">References</h3></p>
+	<p><h3><font color="#FFFFFF">References</h3>
 	<p><sup>1</sup>Van Dillen, S.M., de Vries, S., Groenewegen, P.P. and Spreeuwenberg, P., 2012. Greenspace in urban neighbourhoods and residents' health: adding quality to quantity.<i> Journal of Epidemiology and Community Health, 66</i>(6), pp.e8-e8.</p>
 	<p><sup>2</sup>Greenhalgh, L. and Worpole, K., 1996.<i> People, parks and cities: a guide to current good practice in urban parks.</i> HMSO Publications Centre.</p>
         <p><sup>3</sup>O’Gorman, S. and Dillon-Robinson, R., 2021.<i> 20 Minute Neighbourhoods in a Scottish Context.</i> Ramboll.</p>
 	<p><sup>4</sup>Laing, R., Davies, A.M., Miller, D., Conniff, A., Scott, S. and Morrice, J., 2009. The application of visual environmental economics in the study of public preference and urban greenspace.<i> Environment and Planning B: Planning and Design, 36</i>(2), pp.355-375.</p>
-        <p><sup>5</sup>Schipperijn, J., Ekholm, O., Stigsdotter, U.K., Toftager, M., Bentsen, P., Kamper-Jørgensen, F. and Randrup, T.B., 2010. Factors influencing the use of green space: Results from a Danish National Representative Survey.<i> Landscape and Urban Planning, 95</i>(3), pp.130-137.</p>
+      <p><sup>5</sup>Schipperijn, J., Ekholm, O., Stigsdotter, U.K., Toftager, M., Bentsen, P., Kamper-Jørgensen, F. and Randrup, T.B., 2010. Factors influencing the use of green space: Results from a Danish National Representative Survey.<i> Landscape and Urban Planning, 95</i>(3), pp.130-137.</p>
+      <br>
+The Database stores data originally published by the <a href = "https://data.edinburghcouncilmaps.info/" target="_blank">City of Edinburgh Council</a>. 
+<p>
+
+The ARQI Webmap Service uses data from the following sources:<p>
+
+City of Edinburgh Council, 2009. Open Space Audit. Available from: https://data.edinburghcouncilmaps.info/datasets/31bd7d7e52e3420ca8fc223e5b8d3042_15/explore . [Accessed: 18/12/2021].<p>
+	Scottish Government, 2021. Data Zone Boundaries 2011. Available from: https://data.gov.uk/dataset/ab9f1f20-3b7f-4efa-9bd2-239acf63b540/data-zone-boundaries-2011 . [Accessed: 18/12/2021].
+	<br>
 	</font>
 	<br>
 	</div>
-	</div>
+	
 	
     
       
