@@ -12,7 +12,7 @@ The website is created using [Flask](https://flask.palletsprojects.com/en/2.0.x/
 
 The website and the repository are organised in a Python module package. The main directory contains [main.py](main.py) which imports all app routes and instanciates the webapp, plus all Python files for the webmap and the query webpage. Within this are the sub-directories: [static](static) and [templates](templates) containing all 'decorative files' (CSS, JS, images and webmap data), and HTML files, respectively.
 
-The website documentation is made avaiable [here](Group_6_Documentation.pdf).
+The website documentation is made available [here](Group_6_Documentation.pdf).
 
 ## Cloning Our Repository
 To use the webapp for your research purposes:
